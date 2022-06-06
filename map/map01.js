@@ -53,8 +53,8 @@
         container: 'map',
         style: 'mapbox://styles/groundclothlee/cl3tzaq75000114rpqv3j7ufd',
         center: [120.20595110243076,22.99561100185745],
-        zoom: 13,
-		boxZoom:true
+        zoom: 10,
+	boxZoom:true
     });
 
     // Add markers to the map.
