@@ -52,9 +52,9 @@
     const map = new mapboxgl.Map({
         container: 'map',
         style: 'mapbox://styles/groundclothlee/cl3tzaq75000114rpqv3j7ufd',
-        center: [120.20595110243076,22.99561100185745],
-        zoom: 10,
-	boxZoom:true
+        center: [120.22027300315239,23.01255212285196],
+        zoom: 12,
+		boxZoom:true
     });
 
     // Add markers to the map.
