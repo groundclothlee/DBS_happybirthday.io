@@ -79,18 +79,19 @@ function popup(divid) {
   for (var i = 0; i < imgpop.length; i++) {
 	var thisDiv = imgpop[i];
     var thisid = imgpop[i].id;
-	
-	randomTop = getRandomNumber(100, winHeight);
-    randomLeft = getRandomNumber(100, winWidth);
-	
-	thisDiv.style.top = randomTop +"px";
-    thisDiv.style.left = randomLeft +"px";
+
 	
 	
 	
 	//var now_opa = window.getComputedStyle(imgpop[i]).getPropertyValue("opacity");
 
     if (thisid == divid) {
+			
+	randomTop = getRandomNumber(100, winHeight);
+    randomLeft = getRandomNumber(100, winWidth);
+	
+	thisDiv.style.top = randomTop +"px";
+    thisDiv.style.left = randomLeft +"px";
 		
       imgpop[i].classList.add("active");
     } 
