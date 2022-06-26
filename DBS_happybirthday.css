@@ -1,26 +1,28 @@
-body { margin: 0; padding: 0; }
+body { margin: 0; padding: 0; overflow: hidden; }
 img {
     max-width: 100%;
     max-height: 100%;
 }
 
 #map { position: absolute; top: 0; bottom: 0; width: 100%; z-index:-10}
-#momshrip {width:30%; height:30%}
-#hamb {width:30%; height:30%}
-#bubb {width:30%; height:30%}
-#noo {width:30%; height:30%}
-#hongkong{width:30%; height:30%}
+#momshrip {width:30%; }
+#hamb {width:30%; }
+#bubb {width:30%; }
+#noo {width:30%; }
+#hongkong{width:30%; }
 
 .imgpop {
 	position: absolute;
     opacity: 0;
 	top: 500px;
     left: 500px;
+	z-index:-100
 	
 }
 
 .imgpop.active {
     opacity: 1;
+	z-index:50
 	
 }
 
