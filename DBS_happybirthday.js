@@ -59,6 +59,7 @@ var winHeight = window.innerHeight*0.8;
 
 
 
+
 // function that returns a random number between a min and max
 function getRandomNumber(min, max) {
     
@@ -67,38 +68,53 @@ function getRandomNumber(min, max) {
 }
 
 
-
 	
 	//pop animation
 function popup(divid) {
 	
+	
   var imgpop = document.querySelectorAll(".imgpop");
   var winWidth = window.innerWidth*0.8;
-  var winHeight = window.innerHeight*0.8;
+  var winHeight = window.innerHeight*0.8;  
+
 
   for (var i = 0; i < imgpop.length; i++) {
 	var thisDiv = imgpop[i];
     var thisid = imgpop[i].id;
+	var opa = window.getComputedStyle(thisDiv).getPropertyValue("opacity");
+	var theimg = imgpop[i].children[0];
 
-	
-	
-	
-	//var now_opa = window.getComputedStyle(imgpop[i]).getPropertyValue("opacity");
 
-    if (thisid == divid) {
-			
-	randomTop = getRandomNumber(100, winHeight);
-    randomLeft = getRandomNumber(100, winWidth);
-	
-	thisDiv.style.top = randomTop +"px";
-    thisDiv.style.left = randomLeft +"px";
+    if (thisid == divid & opa == 0) {
 		
-      imgpop[i].classList.add("active");
+		//random position		
+		randomTop = getRandomNumber(100, winHeight);
+		randomLeft = getRandomNumber(100, winWidth);
+		deg = getRandomNumber(-45,45)
+		
+		thisDiv.style.top = randomTop +"px";
+		thisDiv.style.left = randomLeft +"px";
+		
+		theimg.style.transform = 'rotate('+deg+'deg)'; 
+		
+		//anumation
+		thisDiv.classList.remove("leave");
+		thisDiv.classList.add("active");	//
+	
+	
     } 
-		
-	else {
 	
-      imgpop[i].classList.remove("active");
+	//sth like click again
+	else if (opa == 1) {
+		thisDiv.classList.add("leave");	
+		thisDiv.classList.remove("active");
+	    } 
+	
+	
+	
+	else {
+		thisDiv.classList.remove("leave");
+		thisDiv.classList.remove("active");
     }
   }
 }

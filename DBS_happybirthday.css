@@ -5,29 +5,27 @@ img {
 }
 
 #map { position: absolute; top: 0; bottom: 0; width: 100%; z-index:-10}
-#momshrip {width:30%; }
-#hamb {width:30%; }
-#bubb {width:30%; }
-#noo {width:30%; }
-#hongkong{width:30%; }
+#momshrip {height:20%; }
+#hamb {height:20%; }
+#bubb {height:20%; }
+#noo {height:20%; }
+#hongkong{height:20%; }
 
 .imgpop {
 	position: absolute;
-    opacity: 0;
 	top: 500px;
     left: 500px;
-	z-index:-100
+	animation: stiker_out 0.3s ease-in 0s 1 normal forwards;
 	
 }
 
 .imgpop.active {
-    opacity: 1;
-	z-index:50
+	animation: stiker_in 0.3s ease-in 0s 1 normal forwards;
 	
 }
 
-.active.stiker_in{
-    animation: stiker_in 0.2s ease-in 0s 1 normal forwards;
+.imgpop.leave {
+	animation: stiker_out 0.3s ease-out 0s 1 normal forwards;
 }
 
 
@@ -36,14 +34,38 @@ img {
 @keyframes stiker_in {
 	0% {
 		transform: scale(2) rotate(0);
+		opacity: 0;
+		z-index:-100;
 
 	}
 
 	100% {
-		transform: scale(1) rotate(10deg);
+		transform: scale(1) rotate(0deg);
+		opacity: 1;
+		z-index:50;
+		
 
 	}
 }
+
+
+
+@keyframes stiker_out {
+	0% {
+		transform: scale(1) rotate(0deg);
+		opacity: 1;
+		z-index:50;
+
+	}
+
+	100% {
+		transform: scale(2) rotate(0deg);
+		opacity: 0;
+		z-index:-100;
+
+	}
+}
+
 
 #myBtn {
    /* Hidden by default */
@@ -53,6 +75,7 @@ img {
   z-index: 99; /* Make sure it does not overlap */
   font-size:24px;
   font-family:Courier New;
+  text-align: center;
   width:51px;
   height:50px;
   border-width:1px;
