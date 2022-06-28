@@ -5,17 +5,23 @@ img {
 }
 
 #map { position: absolute; top: 0; bottom: 0; width: 100%; z-index:-10}
-#momshrip {height:20%; }
-#hamb {height:20%; }
-#bubb {height:20%; }
-#noo {height:20%; }
-#hongkong{height:20%; }
+#steam_dum       {height:20%; }
+#honest_noo      {height:20%; }
+#shorts_hamb     {height:20%; }
+#mom_shrip       {height:20%; }
+#ncku_z          {height:20%; }
+#boba_sh         {height:20%; }
+#de_plant        {height:20%; }
+#lane_bao        {height:20%; }
+
+
 
 .imgpop {
 	position: absolute;
 	top: 500px;
     left: 500px;
-	animation: stiker_out 0.3s ease-in 0s 1 normal forwards;
+	opacity: 0;	
+	z-index:-100;
 	
 }
 
@@ -88,3 +94,10 @@ img {
   border-bottom-right-radius:27px;
   background:rgba(99, 99, 99, 0.3);
 }
+
+.marker {
+    display: block;
+    border: none;
+    cursor: pointer;
+    padding: 5;
+    }

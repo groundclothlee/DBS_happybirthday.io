@@ -1,61 +1,13 @@
-	mapboxgl.accessToken = 'pk.eyJ1IjoiZ3JvdW5kY2xvdGhsZWUiLCJhIjoiY2t5djBndGwyMXN0ajJ2bnVoY3c2c281byJ9.CLTXfi2GgI5dXQFfCufljA';
-    const geojson = {
-        'type': 'FeatureCollection',
-        'features': [
-            {
-                'type': 'Feature',
-                'properties': {
-                    'divid': 'hongkong',
-                    'icon': 'https://i.imgur.com/SS85Ath.png'
-                },
-                'geometry': {
-                    'type': 'Point',
-                    'coordinates': [120.251828728287,23.0291046270866]
-                }
-            },
-            {
-                'type': 'Feature',
-                'properties': {
-                    'divid': 'noo',
-                    'icon': 'https://i.imgur.com/JlYxLu8.png'
-                },
-                'geometry': {
-                    'type': 'Point',
-                    'coordinates': [120.198153008081,22.9894598905378]
-                }
-            },
-            {
-                'type': 'Feature',
-                'properties': {
-                    'divid': 'hamb',
-                    'icon':'https://i.imgur.com/8Oa0BkF.png'
-                },
-                'geometry': {
-                    'type': 'Point',
-                    'coordinates': [120.20595110243076,22.99561100185745]
-                }
-            },
-            {
-                'type': 'Feature',
-                'properties': {
-                    'divid': 'momshrip',
-                    'icon':'https://i.imgur.com/rffmcDl.png'
-                },
-                'geometry': {
-                    'type': 'Point',
-                    'coordinates': [120.226967883054,23.0185852431367]
-                }
-            }
-        ]
-    };
+mapboxgl.accessToken = 'pk.eyJ1IjoiZ3JvdW5kY2xvdGhsZWUiLCJhIjoiY2t5djBndGwyMXN0ajJ2bnVoY3c2c281byJ9.CLTXfi2GgI5dXQFfCufljA';
+
 
 
 
 // collect all the divs
 var divs = document.querySelectorAll(".imgpop");
 // get window width and height
-var winWidth = window.innerWidth*0.8;
-var winHeight = window.innerHeight*0.8;
+var winWidth = window.innerWidth;
+var winHeight = window.innerHeight;
 
 
 
@@ -74,8 +26,8 @@ function popup(divid) {
 	
 	
   var imgpop = document.querySelectorAll(".imgpop");
-  var winWidth = window.innerWidth*0.8;
-  var winHeight = window.innerHeight*0.8;  
+  var winWidth = window.innerWidth;
+  var winHeight = window.innerHeight;  
 
 
   for (var i = 0; i < imgpop.length; i++) {
