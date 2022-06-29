@@ -2,16 +2,10 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiZ3JvdW5kY2xvdGhsZWUiLCJhIjoiY2t5djBndGwyMXN0a
 
 
 
-
-// collect all the divs
-var divs = document.querySelectorAll(".imgpop");
 // get window width and height
 var winWidth = window.innerWidth;
 var winHeight = window.innerHeight;
 
-var mousePosition;
-var offset = [0,0];
-var isDown = false;
 
 
 // function that returns a random number between a min and max
@@ -20,9 +14,14 @@ function getRandomNumber(min, max) {
 }
 
 
+
+
+
 //move
 function filter(e) {
-  let target = e.target;
+		
+  
+let target = e.target;
 
   if (!target.classList.contains("stiker_in")) {
     return;
@@ -30,12 +29,12 @@ function filter(e) {
 
   target.moving = true;
 
-  //NOTICE THIS  Check if Mouse events exist on users' device
+ 
   if (e.clientX) {
-    target.oldX = e.clientX; // If they exist then use Mouse input
+    target.oldX = e.clientX; 
     target.oldY = e.clientY;
   } else {
-    target.oldX = e.touches[0].clientX; // Otherwise use touch input
+    target.oldX = e.touches[0].clientX; 
     target.oldY = e.touches[0].clientY;
   }
 
@@ -44,9 +43,19 @@ function filter(e) {
 
   document.onmousemove = dr;
   document.ontouchmove = dr;
+  
+  //var alllist = "mapboxgl-touch-pan-blocker-override mapboxgl-scrollable-page mapboxgl-touch-drag-pan mapboxgl-touch-zoom-rotate";
+  
 
-
+   //drog
+	
   function dr(event) {
+	  
+	//mapboxgl-interactive lock
+	canvas.classList.remove("mapboxgl-touch-drag-pan");
+	//window-alert(canvas.classList);
+
+	  
     event.preventDefault();
 
     if (!target.moving) {
@@ -65,12 +74,15 @@ function filter(e) {
     target.style.left = target.oldLeft + target.distX + "px";
     target.style.top = target.oldTop + target.distY + "px";
   }
-
+	
+	
+	//end drog
   function endDrag() {
     target.moving = false;
+	canvas.classList.add("mapboxgl-touch-drag-pan");
   }
+  
   target.onmouseup = endDrag;
-
   target.ontouchend = endDrag;
 
 }
@@ -78,51 +90,46 @@ function filter(e) {
 
 
 document.onmousedown = filter;
-
 document.ontouchstart = filter;
 
 
 
-
-
 	
-	//pop animation
+//pop animation
 function popup(divid) {
 	
 	
   var imgpop = document.querySelectorAll(".imgpop");
-  var winWidth = window.innerWidth;
-  var winHeight = window.innerHeight;  
+
   
 
   for (var i = 0; i < imgpop.length; i++) {
 	var thisDiv = imgpop[i];
     var thisid = imgpop[i].id;
 	var opa = window.getComputedStyle(thisDiv).getPropertyValue("opacity");
-	var theimg = imgpop[i].children[0];
+
 	
 
 
     if (thisid == divid & opa == 0) {
 		
 		//random position		
-		randomTop = getRandomNumber(winHeight*0.05, winHeight*0.95);
-		randomLeft = getRandomNumber(winWidth*0.05, winWidth*0.95);
+		randomTop = getRandomNumber(winHeight*0.05, winHeight*0.8);
+		randomLeft = getRandomNumber(winWidth*0.05, winWidth*0.8);
 		deg = getRandomNumber(-45,45)
 		
 		thisDiv.style.top = randomTop +"px";
-		thisDiv.style.left = randomLeft +"px";
-		
-		theimg.style.transform = 'rotate('+deg+'deg)'; 
+		thisDiv.style.left = randomLeft +"px";		
+		thisDiv.style.transform = 'rotate('+deg+' deg)'; 
+		//thisDiv.style.transform = 'rotate(90deg)';
+		// --change:rotate(0);
+
 		
 		//anumation
 		thisDiv.classList.remove("leave");
 		thisDiv.classList.add("active");	//
 		
-		thisDiv.addEventListener('click', () => {
-            mousemove(thisDiv);
 
-        });
 		
 		
     } 
@@ -156,6 +163,7 @@ function popup(divid) {
         el_sti.style.background = `url(${icon_sti})no-repeat center`;
 		//el_sti.style.backgroundColor = 'red';
         el_sti.style.backgroundSize = 'contain';	
+		
 
 		//el_sti.innerHTML = "<img src='${icon_sti}'>";		
 		el_sti.innerHTML = "<p>  </p>";	
@@ -168,15 +176,19 @@ function popup(divid) {
 	
 	
 //map	
+//https://docs.mapbox.com/mapbox-gl-js/api/map/
     const map = new mapboxgl.Map({
         container: 'map',
         style: 'mapbox://styles/groundclothlee/cl3tzaq75000114rpqv3j7ufd',
         center: [120.22027300315239,23.01255212285196],
         zoom: 12,
-		boxZoom:true
+		doubleClickZoom:false,
+		boxZoom:true,
+		cooperativeGestures:true,
+		interactive:true,
     });
 
-
+const canvas = map.getCanvasContainer();
 
 
 // Add markers to the map.
@@ -186,8 +198,11 @@ function popup(divid) {
 		const icon = marker.properties.icon;
 		
         el.className = 'marker';
-		el.style.width ='20%';
-		el.style.height = '20%';
+		el.style.width =( winWidth*0.12 )+'px';
+		el.style.height = ( winWidth*0.12 )+'px';
+
+		el.style.minWidth ='100px';
+		el.style.minHeight ='100px';
         el.style.background = `url(${icon})no-repeat center`;
         el.style.backgroundSize = 'contain';
 		        
