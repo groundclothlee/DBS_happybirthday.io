@@ -13,12 +13,19 @@ function getRandomNumber(min, max) {
   return Math.random() * (max - min) + min;    
 }
 
+$(window).bind(
+  'touchmove',
+   function(e) {
+    e.preventDefault();
+  }
+);
+
 
 
 //move
 function filter(e) {
 		
-   canvas.classList.remove("mapboxgl-touch-drag-pan");
+  
 let target = e.target;
 
   if (!target.classList.contains("stiker_in")) {
@@ -49,9 +56,6 @@ let target = e.target;
 	
   function dr(event) {
 	  
-	//mapboxgl-interactive lock
-	canvas.classList.remove("mapboxgl-touch-drag-pan");
-	//window-alert(canvas.classList);
 
 	  
     event.preventDefault();
@@ -77,7 +81,7 @@ let target = e.target;
 	//end drog
   function endDrag() {
     target.moving = false;
-	canvas.classList.add("mapboxgl-touch-drag-pan");
+	
   }
   
   target.onmouseup = endDrag;
@@ -186,7 +190,6 @@ function popup(divid) {
 		interactive:true,
     });
 
-const canvas = map.getCanvasContainer();
 
 
 // Add markers to the map.
