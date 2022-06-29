@@ -20,7 +20,7 @@ function getRandomNumber(min, max) {
 //move
 function filter(e) {
 		
-  
+   canvas.classList.remove("mapboxgl-touch-drag-pan");
 let target = e.target;
 
   if (!target.classList.contains("stiker_in")) {
