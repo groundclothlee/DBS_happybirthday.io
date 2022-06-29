@@ -13,12 +13,7 @@ function getRandomNumber(min, max) {
   return Math.random() * (max - min) + min;    
 }
 
-$(window).bind(
-  'touchmove',
-   function(e) {
-    e.preventDefault();
-  }
-);
+
 
 
 
@@ -185,7 +180,7 @@ function popup(divid) {
         center: [120.22027300315239,23.01255212285196],
         zoom: 12,
 		doubleClickZoom:false,
-		boxZoom:true,
+		boxZoom:true,		
 		interactive:true,
     });
 
