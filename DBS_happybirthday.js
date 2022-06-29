@@ -1,6 +1,11 @@
 mapboxgl.accessToken = 'pk.eyJ1IjoiZ3JvdW5kY2xvdGhsZWUiLCJhIjoiY2t5djBndGwyMXN0ajJ2bnVoY3c2c281byJ9.CLTXfi2GgI5dXQFfCufljA';
 
-
+$(window).bind(
+  'touchmove',
+   function(e) {
+    e.preventDefault();
+  }
+);
 
 // get window width and height
 var winWidth = window.innerWidth;
@@ -13,7 +18,12 @@ function getRandomNumber(min, max) {
   return Math.random() * (max - min) + min;    
 }
 
-
+$(window).bind(
+  'touchmove',
+   function(e) {
+    e.preventDefault();
+  }
+);
 
 
 
