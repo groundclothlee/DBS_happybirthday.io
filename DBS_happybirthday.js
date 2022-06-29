@@ -6,7 +6,6 @@ $(window).bind(
     e.preventDefault();
   }
 );
-
 // get window width and height
 var winWidth = window.innerWidth;
 var winHeight = window.innerHeight;
