@@ -6,6 +6,7 @@ $(window).bind(
     e.preventDefault();
   }
 );
+
 // get window width and height
 var winWidth = window.innerWidth;
 var winHeight = window.innerHeight;
@@ -23,6 +24,9 @@ $(window).bind(
     e.preventDefault();
   }
 );
+
+document.addEventListener('touchmove', function() { e.preventDefault(); }, { passive:false });
+
 
 
 
@@ -58,11 +62,10 @@ let target = e.target;
 
    //drog
 	
-  function dr(event) {
-	  
-
-	  
+  function dr(event) {	  
+	
     event.preventDefault();
+	event.stopPropagation();
 
     if (!target.moving) {
       return;
