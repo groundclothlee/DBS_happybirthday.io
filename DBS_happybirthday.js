@@ -185,7 +185,6 @@ function popup(divid) {
         zoom: 12,
 		doubleClickZoom:false,
 		boxZoom:true,
-		cooperativeGestures:true,
 		interactive:true,
     });
 
