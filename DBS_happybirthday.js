@@ -18,16 +18,6 @@ function getRandomNumber(min, max) {
   return Math.random() * (max - min) + min;    
 }
 
-$(window).bind(
-  'touchmove',
-   function(e) {
-    e.preventDefault();
-  }
-);
-
-document.addEventListener('touchmove', function() { e.preventDefault(); }, { passive:false });
-
-
 
 
 //move
