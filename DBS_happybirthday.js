@@ -15,8 +15,6 @@ function getRandomNumber(min, max) {
 
 
 
-
-
 //move
 function filter(e) {
 		
