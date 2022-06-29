@@ -1,7 +1,6 @@
 mapboxgl.accessToken = 'pk.eyJ1IjoiZ3JvdW5kY2xvdGhsZWUiLCJhIjoiY2t5djBndGwyMXN0ajJ2bnVoY3c2c281byJ9.CLTXfi2GgI5dXQFfCufljA';
 
 
-
 // get window width and height
 var winWidth = window.innerWidth;
 var winHeight = window.innerHeight;
