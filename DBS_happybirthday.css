@@ -2,17 +2,11 @@ body { margin: 0; padding: 0; overflow: hidden; }
 img {
     max-width: 100%;
     max-height: 100%;
+	z-index:0;
 }
 
 #map { position: absolute; top: 0; bottom: 0; width: 100%; z-index:-10}
-#steam_dum       {height:20%; }
-#honest_noo      {height:20%; }
-#shorts_hamb     {height:20%; }
-#mom_shrip       {height:20%; }
-#ncku_z          {height:20%; }
-#boba_sh         {height:20%; }
-#de_plant        {height:20%; }
-#lane_bao        {height:20%; }
+
 
 
 
@@ -30,10 +24,10 @@ img {
 	
 }
 
+
 .imgpop.leave {
 	animation: stiker_out 0.3s ease-out 0s 1 normal forwards;
 }
-
 
 
 
@@ -49,10 +43,9 @@ img {
 		transform: scale(1) rotate(0deg);
 		opacity: 1;
 		z-index:50;
-		
-
 	}
 }
+
 
 
 
@@ -68,18 +61,16 @@ img {
 		transform: scale(2) rotate(0deg);
 		opacity: 0;
 		z-index:-100;
-
 	}
 }
 
 
 #myBtn {
-   /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
   right: 2rem;
   bottom: 2rem;
   z-index: 99; /* Make sure it does not overlap */
-  font-size:24px;
+  font-size:20px;
   font-family:Courier New;
   text-align: center;
   width:51px;
@@ -95,9 +86,19 @@ img {
   background:rgba(99, 99, 99, 0.3);
 }
 
+
+#myBtn:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
 .marker {
     display: block;
     border: none;
     cursor: pointer;
     padding: 5;
     }
+
+.marker:hover {
+  opacity: 0.8;
+}
+
