@@ -3,6 +3,8 @@ body { margin: 0; padding: 0; overflow: hidden; user-scalable:no ;}
 
 #map { position: absolute; top: 0; bottom: 0; width: 100%; z-index:-10}
 
+
+
 .imgpop {
 	position: absolute;
 	top: 500px;
