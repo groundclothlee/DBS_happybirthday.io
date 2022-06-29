@@ -1,11 +1,10 @@
+//20220820
+//DeeYeeLee to RonnieYeh
+//Happy Birthday!
+
 mapboxgl.accessToken = 'pk.eyJ1IjoiZ3JvdW5kY2xvdGhsZWUiLCJhIjoiY2t5djBndGwyMXN0ajJ2bnVoY3c2c281byJ9.CLTXfi2GgI5dXQFfCufljA';
 
-$(window).bind(
-  'touchmove',
-   function(e) {
-    e.preventDefault();
-  }
-);
+
 
 // get window width and height
 var winWidth = window.innerWidth;
@@ -99,14 +98,14 @@ function popup(divid) {
 	
 	
   var imgpop = document.querySelectorAll(".imgpop");
-
   
 
   for (var i = 0; i < imgpop.length; i++) {
 	var thisDiv = imgpop[i];
     var thisid = imgpop[i].id;
 	var opa = window.getComputedStyle(thisDiv).getPropertyValue("opacity");
-
+	var winWidth = window.innerWidth;
+	var winHeight = window.innerHeight;
 	
 
 
@@ -148,10 +147,27 @@ function popup(divid) {
   }
 }
 	
+	
+//map	
+//https://docs.mapbox.com/mapbox-gl-js/api/map/
+    const map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/groundclothlee/cl3tzaq75000114rpqv3j7ufd',
+        center: [120.22027300315239,23.01255212285196],
+        zoom: 13,
+		doubleClickZoom:false,
+		boxZoom:true,		
+		interactive:true,
+    });
+
+
+var stickerdiv = document.getElementById("sticker");
+	
 // Add stikers to the map.
     for (const stiker of stikers.features) {
 		
         // Create a DOM element for each marker.
+		
         const el_sti = document.createElement('div');
 		const icon_sti = stiker.properties.icon
 
@@ -161,30 +177,16 @@ function popup(divid) {
 		el_sti.style.height = '20%';
         el_sti.style.background = `url(${icon_sti})no-repeat center`;
 		//el_sti.style.backgroundColor = 'red';
-        el_sti.style.backgroundSize = 'contain';	
-		
+        el_sti.style.backgroundSize = 'contain';			
 
 		//el_sti.innerHTML = "<img src='${icon_sti}'>";		
-		el_sti.innerHTML = "<p>  </p>";	
+		el_sti.innerHTML = "<p></p>";	
 		
-		document.body.appendChild(el_sti);	
+		stickerdiv.appendChild(el_sti);	
 
     }
 
 
-	
-	
-//map	
-//https://docs.mapbox.com/mapbox-gl-js/api/map/
-    const map = new mapboxgl.Map({
-        container: 'map',
-        style: 'mapbox://styles/groundclothlee/cl3tzaq75000114rpqv3j7ufd',
-        center: [120.22027300315239,23.01255212285196],
-        zoom: 12,
-		doubleClickZoom:false,
-		boxZoom:true,		
-		interactive:true,
-    });
 
 
 
@@ -223,7 +225,7 @@ function popup(divid) {
 
 
 
-//removeall const
+//remove all stickers
 
 //Get the button:
 mybutton = document.getElementById("myBtn");
