@@ -1,0 +1,99 @@
+body { margin: 0; padding: 0; overflow: hidden; user-scalable:no ;}
+
+
+#map { position: absolute; top: 0; bottom: 0; width: 100%; z-index:-10}
+
+
+
+.imgpop {
+	position: absolute;
+	top: 500px;
+    left: 500px;
+	opacity: 0;	
+	z-index:-100;
+	
+}
+
+.imgpop.active {
+	animation: stiker_in 0.3s ease-in 0s 1 normal forwards;
+	
+}
+
+
+.imgpop.leave {
+	animation: stiker_out 0.3s ease-out 0s 1 normal forwards;
+}
+
+
+
+@keyframes stiker_in {
+	0% {
+		transform: scale(2) rotate(0);
+		opacity: 0;
+		z-index:-100;
+
+	}
+
+	100% {
+		transform: scale(1)  --change;
+		opacity: 1;
+		z-index:50;
+	}
+}
+
+
+
+
+@keyframes stiker_out {
+	0% {
+		transform: scale(1)  --change;
+		opacity: 1;
+		z-index:50;
+
+	}
+
+	100% {
+		transform: scale(2) rotate(0deg);
+		opacity: 0;
+		z-index:-100;
+	}
+}
+
+
+#myBtn {
+  position: fixed; /* Fixed/sticky position */
+  right: 2rem;
+  bottom: 2rem;
+  z-index: 99; /* Make sure it does not overlap */
+  font-size:20px;
+  font-family:Courier New;
+  text-align: center;
+  width:51px;
+  height:50px;
+  border-width:1px;
+  color:rgba(255, 255, 255, 1);
+  border-color:rgba(71, 71, 71, 0);
+  font-weight:bold;
+  border-top-left-radius:27px;
+  border-top-right-radius:27px;
+  border-bottom-left-radius:27px;
+  border-bottom-right-radius:27px;
+  background:rgba(99, 99, 99, 0.3);
+}
+
+
+#myBtn:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.marker {
+    display: block;
+    border: none;
+    cursor: pointer;
+    padding: 5;
+    }
+
+.marker:hover {
+  opacity: 0.8;
+}
+
