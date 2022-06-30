@@ -21,7 +21,7 @@ function getRandomNumber(min, max) {
 //move
 function filter(e) {
 		
-  
+
 let target = e.target;
 
   if (!target.classList.contains("stiker_in")) {
@@ -29,7 +29,6 @@ let target = e.target;
   }
 
   target.moving = true;
-
  
   if (e.clientX) {
     target.oldX = e.clientX; 
@@ -52,7 +51,7 @@ let target = e.target;
 	
   function dr(event) {	  
 	
-    event.preventDefault();
+    //event.preventDefault();
 	//event.stopPropagation();
 
     if (!target.moving) {
@@ -77,6 +76,7 @@ let target = e.target;
   function endDrag() {
     target.moving = false;
 	
+	
   }
   
   target.onmouseup = endDrag;
@@ -89,7 +89,9 @@ let target = e.target;
 document.onmousedown = filter;
 document.ontouchstart = filter;
 
-
+window.addEventListener('touchstart', function() {
+    // some logic
+}, {passive:false});
 
 	
 //pop animation
