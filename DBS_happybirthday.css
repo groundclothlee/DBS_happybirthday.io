@@ -64,13 +64,12 @@ body { margin: 0; padding: 0; overflow: hidden; user-scalable:no ;}
   right: 2rem;
   bottom: 2rem;
   z-index: 99; 
-  font-size:20pt;
+  font-size:100%;
   text-align: center;
   width:50px;
   height:50px;
   border-width:0px;
   color:rgba(255, 255, 255, 1);
-
   font-weight:bold;
   border-top-left-radius:27px;
   border-top-right-radius:27px;
