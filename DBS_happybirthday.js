@@ -5,7 +5,6 @@
 mapboxgl.accessToken = 'pk.eyJ1IjoiZ3JvdW5kY2xvdGhsZWUiLCJhIjoiY2t5djBndGwyMXN0ajJ2bnVoY3c2c281byJ9.CLTXfi2GgI5dXQFfCufljA';
 
 
-
 // get window width and height
 var winWidth = window.innerWidth;
 var winHeight = window.innerHeight;
@@ -49,12 +48,12 @@ let target = e.target;
   //var alllist = "mapboxgl-touch-pan-blocker-override mapboxgl-scrollable-page mapboxgl-touch-drag-pan mapboxgl-touch-zoom-rotate";
   
 
-   //drog
+   //drag
 	
   function dr(event) {	  
 	
     event.preventDefault();
-	event.stopPropagation();
+	//event.stopPropagation();
 
     if (!target.moving) {
       return;
