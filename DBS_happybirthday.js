@@ -17,6 +17,7 @@ function getRandomNumber(min, max) {
 }
 
 
+document.addEventListener('touchmove', this._preventDefault, { passive: false });
 
 //move
 function filter(e) {
@@ -44,15 +45,12 @@ let target = e.target;
   document.onmousemove = dr;
   document.ontouchmove = dr;
   
-  //var alllist = "mapboxgl-touch-pan-blocker-override mapboxgl-scrollable-page mapboxgl-touch-drag-pan mapboxgl-touch-zoom-rotate";
-  
-
-   //drag
+  //drag
 	
   function dr(event) {	  
 	
     //event.preventDefault();
-	//event.stopPropagation();
+	event.stopPropagation();
 
     if (!target.moving) {
       return;
@@ -85,13 +83,10 @@ let target = e.target;
 }
 
 
-
 document.onmousedown = filter;
 document.ontouchstart = filter;
 
-window.addEventListener('touchstart', function() {
-    // some logic
-}, {passive:false});
+
 
 	
 //pop animation
