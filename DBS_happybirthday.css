@@ -1,5 +1,5 @@
 
-body { padding: 0; overflow: hidden; user-scalable:no ;}
+body { margin: 0; padding: 0; overflow: hidden; user-scalable:no ;width: 100%; height: 100%}
 
 
 #map { position: absolute; top: 0; bottom: 0; width: 100%; height: 100%; z-index:-10; overflow: hidden;}
@@ -60,7 +60,7 @@ body { padding: 0; overflow: hidden; user-scalable:no ;}
 
 
 #myBtn {
-  position: fixed; 
+  position: absolute; 
   right: 2rem;
   bottom: 2rem;
   z-index: 99; 
