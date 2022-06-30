@@ -177,7 +177,9 @@ var stickerdiv = document.getElementById("sticker");
 		el_sti.style.height = '20%';
         el_sti.style.background = `url(${icon_sti})no-repeat center`;
 		//el_sti.style.backgroundColor = 'red';
-        el_sti.style.backgroundSize = 'contain';			
+        el_sti.style.backgroundSize = 'contain';	
+        el_sti.style.display = 'inline-block';
+		//el_sti.style.transform = 'rotate(90deg)';
 
 		//el_sti.innerHTML = "<img src='${icon_sti}'>";		
 		el_sti.innerHTML = "<p></p>";	

@@ -1,11 +1,9 @@
-html { overflow:hidden;}
-
-
+html {  margin: 0; padding: 0; overflow: hidden;overflow-x: hidden;overflow-y: hidden; user-scalable:no ;}
 
 body { margin: 0; padding: 0; overflow: hidden;overflow-x: hidden;overflow-y: hidden; user-scalable:no ;}
 
 
-#map { position: absolute; top: 0; bottom: 0; width: 100%; z-index:-10; overflow: hidden;}
+#map { position: absolute; top: 0; bottom: 0; width: 100%; height: 100%; z-index:-10; overflow: hidden;}
 
 
 
@@ -32,14 +30,14 @@ body { margin: 0; padding: 0; overflow: hidden;overflow-x: hidden;overflow-y: hi
 
 @keyframes stiker_in {
 	0% {
-		transform: scale(2) rotate(0);
+		transform: scale(2);
 		opacity: 0;
 		z-index:-100;
 
 	}
 
 	100% {
-		transform: scale(1)  --change;
+		transform: scale(1) ;
 		opacity: 1;
 		z-index:50;
 	}
@@ -50,14 +48,14 @@ body { margin: 0; padding: 0; overflow: hidden;overflow-x: hidden;overflow-y: hi
 
 @keyframes stiker_out {
 	0% {
-		transform: scale(1)  --change;
+		transform: scale(1) ;
 		opacity: 1;
 		z-index:50;
 
 	}
 
 	100% {
-		transform: scale(2) rotate(0deg);
+		transform: scale(2) ;
 		opacity: 0;
 		z-index:-100;
 	}
@@ -70,8 +68,6 @@ body { margin: 0; padding: 0; overflow: hidden;overflow-x: hidden;overflow-y: hi
   bottom: 2rem;
   z-index: 99; 
   font-size:30px;
-  font-weight: 300;
-  font-family:Arial, sans-serif;
   text-align: center;
   width:50px;
   height:50px;
