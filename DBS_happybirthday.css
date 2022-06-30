@@ -1,10 +1,8 @@
-html {  margin: 0; padding: 0; overflow: hidden;overflow-x: hidden;overflow-y: hidden; user-scalable:no ;}
 
-body { margin: 0; padding: 0; overflow: hidden;overflow-x: hidden;overflow-y: hidden; user-scalable:no ;}
+body { margin: 0; padding: 0; overflow: hidden; user-scalable:no ;}
 
 
 #map { position: absolute; top: 0; bottom: 0; width: 100%; height: 100%; z-index:-10; overflow: hidden;}
-
 
 
 .imgpop {
@@ -17,8 +15,7 @@ body { margin: 0; padding: 0; overflow: hidden;overflow-x: hidden;overflow-y: hi
 }
 
 .imgpop.active {
-	animation: stiker_in 0.3s ease-in 0s 1 normal forwards;
-	
+	animation: stiker_in 0.3s ease-in 0s 1 normal forwards;	
 }
 
 
