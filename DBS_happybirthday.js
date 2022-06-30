@@ -21,21 +21,23 @@ function getRandomNumber(min, max) {
 
 //move
 function filter(e) {
-		
 
   let target = e.target;
-
+	
+  //filter id
   if (!target.classList.contains("stiker_in")) {
     return;
   }
 
   target.moving = true;
   
+  //
   if(e.touches.length > 1){
         //multi-touch
         //prevent the behavior
         e.preventDefault()
     }
+	//
   
  
   if (e.clientX) {
@@ -55,13 +57,22 @@ function filter(e) {
   //drag
 	
   function dr(event) {	  
+  
+	//event.preventDefault();
+	//event.stopPropagation();
 	
-    //event.preventDefault();
-	event.stopPropagation();
-
+	//filter id
     if (!target.moving) {
       return;
     }
+	
+	window.addEventListener('touchmove', ev => {
+	  if (target.moving) {
+		ev.preventDefault();
+		ev.stopImmediatePropagation();
+	  };
+	}, { passive: false });
+	
 
     if (event.clientX) {
       target.distX = event.clientX - target.oldX;
@@ -92,6 +103,8 @@ function filter(e) {
 
 document.onmousedown = filter;
 document.ontouchstart = filter;
+
+
 
 
 
