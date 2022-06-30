@@ -31,14 +31,7 @@ function filter(e) {
 
   target.moving = true;
   
-  //
-  if(e.touches.length > 1){
-        //multi-touch
-        //prevent the behavior
-        e.preventDefault()
-    }
-	//
-  
+
  
   if (e.clientX) {
     target.oldX = e.clientX; 
@@ -72,6 +65,16 @@ function filter(e) {
 		ev.stopImmediatePropagation();
 	  };
 	}, { passive: false });
+	
+	
+
+//	if(e.touches.length > 1){
+        //multi-touch
+        //prevent the behavior
+//       e.preventDefault()
+	//}
+	
+  
 	
 
     if (event.clientX) {
