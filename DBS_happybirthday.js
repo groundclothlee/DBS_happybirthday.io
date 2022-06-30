@@ -17,19 +17,26 @@ function getRandomNumber(min, max) {
 }
 
 
-document.addEventListener('touchmove', this._preventDefault, { passive: false });
+//document.addEventListener('touchmove', this._preventDefault, { passive: false });
 
 //move
 function filter(e) {
 		
 
-let target = e.target;
+  let target = e.target;
 
   if (!target.classList.contains("stiker_in")) {
     return;
   }
 
   target.moving = true;
+  
+  if(e.touches.length > 1){
+        //multi-touch
+        //prevent the behavior
+        e.preventDefault()
+    }
+  
  
   if (e.clientX) {
     target.oldX = e.clientX; 
