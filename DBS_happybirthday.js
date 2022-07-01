@@ -172,7 +172,7 @@ function popup(divid) {
     const map = new mapboxgl.Map({
         container: 'map',
         style: 'mapbox://styles/groundclothlee/cl3tzaq75000114rpqv3j7ufd',
-        center: [120.22027300315239,23.01255212285196],
+        center: [120.21617556768315,23.000327371358434],
         zoom: 13,
 		doubleClickZoom:false,
 		boxZoom:true,		
@@ -189,14 +189,22 @@ var stickerdiv = document.getElementById("sticker");
         const el_sti = document.createElement('div');
 		const icon_sti = stiker.properties.icon
 
-		el_sti.id = stiker.properties.divid
+		el_sti.id = stiker.properties.divid;
         el_sti.className = stiker.properties.cla;
-		el_sti.style.width ='20%';
-		el_sti.style.height = '20%';
+		
+		//el_sti.style.width ='20%';
+		//el_sti.style.height = '20%';
+		
+		el_sti.style.width =stiker.properties.w;
+		el_sti.style.height = stiker.properties.h;
+
+		
         el_sti.style.background = `url(${icon_sti})no-repeat center`;
 		//el_sti.style.backgroundColor = 'red';
+		
         el_sti.style.backgroundSize = 'contain';	
         el_sti.style.display = 'inline-block';
+		
 		//el_sti.style.transform = 'rotate(90deg)';
 
 		//el_sti.innerHTML = "<img src='${icon_sti}'>";		
