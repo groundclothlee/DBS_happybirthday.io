@@ -4,6 +4,16 @@
 
 mapboxgl.accessToken = 'pk.eyJ1IjoiZ3JvdW5kY2xvdGhsZWUiLCJhIjoiY2t5djBndGwyMXN0ajJ2bnVoY3c2c281byJ9.CLTXfi2GgI5dXQFfCufljA';
 
+//loading animation
+
+ window.onload = function(){
+     setTimeout(function(){
+         var loader = document.getElementsByClassName("loader-wrapper")[0];
+         loader.style.display = "none";
+     },800)
+ }
+
+
 
 // get window width and height
 var winWidth = window.innerWidth;
