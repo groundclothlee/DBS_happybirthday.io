@@ -1,4 +1,4 @@
-const geojson = {
+const stikers = {
 		 'type': 'FeatureCollection',
 		 'features': [
 			 {
