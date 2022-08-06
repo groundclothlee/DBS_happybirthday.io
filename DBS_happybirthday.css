@@ -42,6 +42,9 @@ body { margin: 0;  overflow: hidden;width: 100%; height: 100%}
 	}
 }
 
+
+
+
 .ring
 {
   position:absolute;
@@ -90,21 +93,6 @@ body { margin: 0;  overflow: hidden;width: 100%; height: 100%}
 
 
 
-
-@keyframes stiker_out {
-	0% {
-		transform: scale(1);
-		opacity: 1;
-		z-index:50;
-
-	}
-
-	100% {
-		transform: scale(2) ;
-		opacity: 0;
-		z-index:-100;
-	}
-}
 
 
 #myBtn {

@@ -183,7 +183,7 @@ function popup(divid) {
         container: 'map',
         style: 'mapbox://styles/groundclothlee/cl3tzaq75000114rpqv3j7ufd',
         center: [120.21617556768315,23.000327371358434],
-        zoom: 13,
+        zoom: 13.8,
 		doubleClickZoom:false,
 		boxZoom:true,		
     });
@@ -235,11 +235,11 @@ var stickerdiv = document.getElementById("sticker");
 		const icon = marker.properties.icon;
 		
         el.className = 'marker';
-		el.style.width =( winWidth*0.12 )+'px';
-		el.style.height = ( winWidth*0.12 )+'px';
+		el.style.width =( winWidth*0.10 )+'px';
+		el.style.height = ( winWidth*0.10 )+'px';
 
-		el.style.minWidth ='100px';
-		el.style.minHeight ='100px';
+		el.style.minWidth ='80px';
+		el.style.minHeight ='80px';
         el.style.background = `url(${icon})no-repeat center`;
         el.style.backgroundSize = 'contain';
 		        
