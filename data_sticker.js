@@ -19,8 +19,8 @@ const stikers = {
 				 'divid': 'steam_dum',
 				 'icon': 'https://i.imgur.com/uQ3uj1s.png',
 				 'cla': 'imgpop stiker_in stiker_out',
-				 'w': '20%',
-				 'h': '20%',
+				 'w': '15%',
+				 'h': '15%',
 				 }
 		   },
 			 {
@@ -107,8 +107,8 @@ const stikers = {
 				 'divid': 'mom_shrimp',
 				 'icon': 'https://i.imgur.com/nSJcYNS.png',
 				 'cla': 'imgpop stiker_in stiker_out',
-				 'w': '20%',
-				 'h': '20%',
+				 'w': '18%',
+				 'h': '18%',
 				 }
 		   },
 			 {
@@ -338,7 +338,7 @@ const stikers = {
 				 'divid': 'fish_island',
 				 'icon': 'https://i.imgur.com/2HAxJaq.png',
 				 'cla': 'imgpop stiker_in stiker_out',
-				 'w': '30%',
+				 'w': '50%',
 				 'h': '30%',
 				 }
 		   },
@@ -349,7 +349,7 @@ const stikers = {
 				 'divid': 'ncku_z',
 				 'icon': 'https://i.imgur.com/QXSNuAI.png',
 				 'cla': 'imgpop stiker_in stiker_out',
-				 'w': '30%',
+				 'w': '50%',
 				 'h': '30%',
 				 }
 		   },
@@ -392,9 +392,9 @@ const stikers = {
 				 'memo': '波哥騎車',
 				 'divid': 'boba_sh',
 				 'icon': 'https://i.imgur.com/n7bGPT0.png',
-				 'cla': 'imgpop stiker_in stiker_out',
-				 'w': '15%',
-				 'h': '15%',
+				 'cla': 'imgpop move_in move_out',
+				 'w': '20%',
+				 'h': '20%',
 				 }
 		   },
 			 {
@@ -402,9 +402,9 @@ const stikers = {
 				 'properties': {
 				 'memo': '旗津旗',
 				 'divid': 'chi_island',
-				 'icon': 'https://i.imgur.com/YLTlIL3.png',
+				 'icon': 'https://i.imgur.com/fJS4tRQ.png',
 				 'cla': 'imgpop stiker_in stiker_out',
-				 'w': '30%',
+				 'w': '50%',
 				 'h': '30%',
 				 }
 		   },
@@ -415,8 +415,8 @@ const stikers = {
 				 'divid': 'cac_shp',
 				 'icon': 'https://i.imgur.com/RH3x8AB.png',
 				 'cla': 'imgpop stiker_in stiker_out',
-				 'w': '15%',
-				 'h': '15%',
+				 'w': '12%',
+				 'h': '12%',
 				 }
 		   },
 			 {
@@ -437,8 +437,8 @@ const stikers = {
 				 'divid': 'cac_shp',
 				 'icon': 'https://i.imgur.com/bBUftiE.png',
 				 'cla': 'imgpop stiker_in stiker_out',
-				 'w': '15%',
-				 'h': '15%',
+				 'w': '12%',
+				 'h': '12%',
 				 }
 		   },
 			 {
@@ -446,7 +446,7 @@ const stikers = {
 				 'properties': {
 				 'memo': '仙人掌兔',
 				 'divid': 'cac_shp',
-				 'icon': 'https://i.imgur.com/ToayP0l.png',
+				 'icon': 'https://i.imgur.com/PyekPfd.png',
 				 'cla': 'imgpop stiker_in stiker_out',
 				 'w': '15%',
 				 'h': '15%',
@@ -470,8 +470,8 @@ const stikers = {
 				 'divid': 'cac_shp',
 				 'icon': 'https://i.imgur.com/0n0R7Gu.png',
 				 'cla': 'imgpop stiker_in stiker_out',
-				 'w': '15%',
-				 'h': '15%',
+				 'w': '10%',
+				 'h': '10%',
 				 }
 		   },
 			 {
@@ -481,8 +481,8 @@ const stikers = {
 				 'divid': 'cac_shp',
 				 'icon': 'https://i.imgur.com/QSPlSu4.png',
 				 'cla': 'imgpop stiker_in stiker_out',
-				 'w': '15%',
-				 'h': '15%',
+				 'w': '18%',
+				 'h': '18%',
 				 }
 		   },
 			 {
@@ -492,8 +492,8 @@ const stikers = {
 				 'divid': 'cac_shp',
 				 'icon': 'https://i.imgur.com/qtP85Zh.png',
 				 'cla': 'imgpop stiker_in stiker_out',
-				 'w': '15%',
-				 'h': '15%',
+				 'w': '18%',
+				 'h': '18%',
 				 }
 		   },
 			 {
@@ -501,9 +501,9 @@ const stikers = {
 				 'properties': {
 				 'memo': '衛武營坐墊',
 				 'divid': 'wwy',
-				 'icon': 'https://i.imgur.com/gDsTgGp.png',
+				 'icon': 'https://i.imgur.com/33ck9U7.png',
 				 'cla': 'imgpop stiker_in stiker_out',
-				 'w': '30%',
+				 'w': '50%',
 				 'h': '30%',
 				 }
 		   },
@@ -522,11 +522,11 @@ const stikers = {
 			   'type': 'Feature',
 				 'properties': {
 				 'memo': '狗不能進',
-				 'divid': 'steam_dum',
+				 'divid': 'lane_bao',
 				 'icon': 'https://i.imgur.com/BvSh0PN.png',
 				 'cla': 'imgpop stiker_in stiker_out',
-				 'w': '15%',
-				 'h': '15%',
+				 'w': '18%',
+				 'h': '18%',
 				 }
 		   },
 			 {
@@ -538,6 +538,17 @@ const stikers = {
 				 'cla': 'imgpop stiker_in stiker_out',
 				 'w': '15%',
 				 'h': '15%',
+				 }
+		   },
+			 {
+			   'type': 'Feature',
+				 'properties': {
+				 'memo': '大媽活蝦',
+				 'divid': 'mom_shrimp',
+				 'icon': 'https://i.imgur.com/Tf0OVgc.png',
+				 'cla': 'imgpop stiker_in stiker_out',
+				 'w': '30%',
+				 'h': '30%',
 				 }
 		   },
 			 

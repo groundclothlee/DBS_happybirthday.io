@@ -152,12 +152,9 @@ function popup(divid) {
 		// --change:rotate(0);
 
 		
-		//anumation
+		//animation
 		thisDiv.classList.remove("leave");
 		thisDiv.classList.add("active");	//
-		
-
-		
 		
     } 
 	
@@ -235,8 +232,8 @@ var stickerdiv = document.getElementById("sticker");
 		const icon = marker.properties.icon;
 		
         el.className = 'marker';
-		el.style.width =( winWidth*0.10 )+'px';
-		el.style.height = ( winWidth*0.10 )+'px';
+		el.style.width =( winWidth*0.05 )+'px';
+		el.style.height = ( winWidth*0.05 )+'px';
 
 		el.style.minWidth ='80px';
 		el.style.minHeight ='80px';

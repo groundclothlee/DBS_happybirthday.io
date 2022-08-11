@@ -58,7 +58,7 @@ const geojson = {
 				 'properties': {
 				 'memo': '自強校區',
 				 'divid': 'ncku_z',
-				 'icon': 'https://imgur.com/qq7VY8S',
+				 'icon': 'https://i.imgur.com/qq7VY8S.png',
 				 'type': 'Point',
 				 },
 				'geometry': {
@@ -97,8 +97,8 @@ const geojson = {
 				 'properties': {
 				 'memo': '巷口小籠包',
 				 'divid': 'lane_bao',
-				 'icon': 'https://i.imgur.com/YGF4rBS.png',
-				 'type': 'Point',
+				 'icon': 'https://i.imgur.com/grahKcy.png',
+				 'type': '120.2263055',
 				 },
 				'geometry': {
 					  'type': 'Point',
@@ -149,7 +149,7 @@ const geojson = {
 				 'properties': {
 				 'memo': '旗津島',
 				 'divid': 'chi_island',
-				 'icon': 'https://i.imgur.com/ZihgWdw.png',
+				 'icon': 'https://i.imgur.com/3zhtWa2.png',
 				 'type': 'Point',
 				 },
 				'geometry': {
