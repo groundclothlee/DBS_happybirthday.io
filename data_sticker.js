@@ -392,7 +392,7 @@ const stikers = {
 				 'memo': '波哥騎車',
 				 'divid': 'boba_sh',
 				 'icon': 'https://i.imgur.com/n7bGPT0.png',
-				 'cla': 'imgpop move_in move_out',
+				 'cla': 'imgpop stiker_in stiker_out',
 				 'w': '20%',
 				 'h': '20%',
 				 }
