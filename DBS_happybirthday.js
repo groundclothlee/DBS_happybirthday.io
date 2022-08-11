@@ -156,6 +156,9 @@ function popup(divid) {
 		thisDiv.classList.remove("leave");
 		thisDiv.classList.add("active");	//
 		
+
+		
+		
     } 
 	
 	//sth like click again
