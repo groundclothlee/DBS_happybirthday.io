@@ -175,6 +175,13 @@ function popup(divid) {
 function openDE() {
 	var DEdiv =  document.getElementById("DE");
 	
+	DEdiv.addEventListener('click', () => {
+    openDE();
+
+    });
+
+	
+	
 	var DE_opa = window.getComputedStyle(DEdiv).getPropertyValue("opacity");
 	
 	if (DE_opa==0){
@@ -190,6 +197,10 @@ function openDE() {
 	}
 	
 }
+
+
+
+
 
 
 
