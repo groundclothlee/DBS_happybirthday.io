@@ -118,9 +118,6 @@ document.onmousedown = filter;
 document.ontouchstart = filter;
 
 
-
-
-
 	
 //pop animation
 function popup(divid) {
@@ -135,6 +132,7 @@ function popup(divid) {
 	var opa = window.getComputedStyle(thisDiv).getPropertyValue("opacity");
 	var winWidth = window.innerWidth;
 	var winHeight = window.innerHeight;
+	var DEdiv = document.getElementById("DE");
 	
 
 
@@ -153,11 +151,9 @@ function popup(divid) {
 
 		
 		//animation
+		thisDiv.classList.remove("activee");
 		thisDiv.classList.remove("leave");
 		thisDiv.classList.add("active");	//
-		
-
-		
 		
     } 
 	
@@ -165,18 +161,39 @@ function popup(divid) {
 	else if (opa == 1) {
 		thisDiv.classList.add("leave");	
 		thisDiv.classList.remove("active");
-	    } 
-	
-	
+	    } 	
 	
 	else {
 		thisDiv.classList.remove("leave");
-		thisDiv.classList.remove("active");
+		//thisDiv.classList.remove("active");
     }
   }
 }
 	
 	
+//open DE copyright
+function openDE() {
+	var DEdiv =  document.getElementById("DE");
+	
+	var DE_opa = window.getComputedStyle(DEdiv).getPropertyValue("opacity");
+	
+	if (DE_opa==0){
+		DEdiv.classList.remove("scale-up-tl")
+		DEdiv.classList.remove("scale-down-tl")	
+		DEdiv.classList.add("scale-up-tl")
+	}
+
+	else {
+		DEdiv.classList.add("scale-down-tl")
+		//DEdiv.classList.remove("scale-up-tl")	
+		
+	}
+	
+}
+
+
+
+
 //map	
 //https://docs.mapbox.com/mapbox-gl-js/api/map/
     const map = new mapboxgl.Map({
@@ -273,9 +290,13 @@ mybutton = document.getElementById("myBtn");
 
 function removeall() {
   var imgpop = document.querySelectorAll(".imgpop");
+  var DEdiv =  document.getElementById("DE");
+  
+  DEdiv.classList.remove("scale-up-tl")
 
   for (var i = 0; i < imgpop.length; i++) {
       imgpop[i].classList.remove("active");
+	  
 	  
     }
   }

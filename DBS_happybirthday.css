@@ -44,6 +44,21 @@ body { margin: 0;  overflow: hidden;width: 100%; height: 100%}
 }
 
 
+@keyframes stiker_out {
+	100% {
+		transform: scale(2);
+		opacity: 0;
+		z-index:-100;
+
+	}
+
+	0% {
+		transform: scale(1) ;
+		opacity: 1;
+		z-index:50;
+	}
+}
+
 
 @keyframes move_in {
 	0% {
@@ -59,9 +74,6 @@ body { margin: 0;  overflow: hidden;width: 100%; height: 100%}
 		z-index:50;
 	}
 }
-
-
-
 
 
 
@@ -121,7 +133,7 @@ body { margin: 0;  overflow: hidden;width: 100%; height: 100%}
   right: 2rem;
   bottom: 2rem;
   z-index: 99; 
-  font-size:100%;
+  font-size:150%;
   text-align: center;
   width:50px;
   height:50px;
@@ -139,6 +151,121 @@ body { margin: 0;  overflow: hidden;width: 100%; height: 100%}
 #myBtn:hover {
   background: rgba(255, 255, 255, 0.5);
 }
+
+
+#openDE {
+  position: absolute; 
+  left: 1rem;
+  top: 1rem;
+  z-index: 99; 
+  width:50px;
+  height:50px;
+  border-width:0px;
+  background:url(https://i.imgur.com/6q8UxLP.png) no-repeat center;
+  background-size: 50px 50px;
+
+  
+}
+
+
+p {
+	font-size:80%;  
+  margin: 0px 40px 10px 27px;
+  font-family: Tahoma, Verdana, sans-serif;
+  letter-spacing: 2px;
+  line-height: 1.5;
+}
+
+h1 {
+	font-size:100%;  
+	margin: 27px 27px 20px 27px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+	letter-spacing: 2px;
+}
+
+
+a {
+	font-size:10%;  
+	margin: 27px 27px 27px 27px;
+	font-family: Tahoma, Verdana, sans-serif;
+	line-height: 2;
+	color:rgba(1, 1, 1, 0.5)
+}
+
+
+a:active {
+    color:white;
+}
+
+a:visited{
+  color:white;
+}
+
+
+
+.DEpopup {
+  opacity: 0;
+  position: absolute; 
+  left: 4rem;
+  top: 2rem;
+  border: 0px;
+
+  color:white;
+  z-index:-100;
+  min-width:300px;
+  
+  
+
+  width:30%;
+  border-top-left-radius:27px;
+  border-top-right-radius:27px;
+  border-bottom-left-radius:27px;
+  border-bottom-right-radius:27px;
+    
+
+  
+  background:rgba(99, 99, 99, 0.8);
+}
+
+.scale-up-tl {
+	opacity: 100;
+	z-index:98;
+	-webkit-animation: scale-up-tl 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	animation: scale-up-tl 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@keyframes scale-up-tl {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+    -webkit-transform-origin: 0% 0%;
+            transform-origin: 0% 0%;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: 0% 0%;
+            transform-origin: 0% 0%;
+  }
+}
+
+.scale-down-tl {	
+	        animation: scale-down-tl 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes scale-down-tl {
+  0% {
+            transform: scale(1);
+            transform-origin: 0% 0%;
+  }
+  100% {
+            transform: scale(0);
+            transform-origin: 0% 0%;
+	opacity: 0;
+	z-index:-100;
+  }
+}
+
 
 .marker {
     display: block;

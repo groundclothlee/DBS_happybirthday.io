@@ -551,6 +551,39 @@ const stikers = {
 				 'h': '30%',
 				 }
 		   },
+			 {
+			   'type': 'Feature',
+				 'properties': {
+				 'memo': 'twosetstrad',
+				 'divid': 'twoset',
+				 'icon': 'https://i.imgur.com/mFrD0tm.png',
+				 'cla': 'imgpop stiker_in stiker_out',
+				 'w': '20%',
+				 'h': '20%',
+				 }
+		   },
+			 {
+			   'type': 'Feature',
+				 'properties': {
+				 'memo': '屋頂夕陽',
+				 'divid': 'ncku_z',
+				 'icon': 'https://i.imgur.com/bCoguPR.png',
+				 'cla': 'imgpop stiker_in stiker_out',
+				 'w': '20%',
+				 'h': '20%',
+				 }
+		   },
+			 {
+			   'type': 'Feature',
+				 'properties': {
+				 'memo': '投幣蕾蕾',
+				 'divid': 'ncku_z',
+				 'icon': 'https://i.imgur.com/u7INrF0.png',
+				 'cla': 'imgpop stiker_in stiker_out',
+				 'w': '20%',
+				 'h': '20%',
+				 }
+		   },
 			 
 		  ]
 	};
