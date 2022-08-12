@@ -533,7 +533,7 @@ const stikers = {
 			   'type': 'Feature',
 				 'properties': {
 				 'memo': '蕾蕾隊長',
-				 'divid': 'ncku_z',
+				 'divid': 'fish_island',
 				 'icon': 'https://i.imgur.com/0VVonvp.png',
 				 'cla': 'imgpop stiker_in stiker_out',
 				 'w': '15%',
@@ -569,8 +569,8 @@ const stikers = {
 				 'divid': 'ncku_z',
 				 'icon': 'https://i.imgur.com/bCoguPR.png',
 				 'cla': 'imgpop stiker_in stiker_out',
-				 'w': '20%',
-				 'h': '20%',
+				 'w': '30%',
+				 'h': '30%',
 				 }
 		   },
 			 {
@@ -580,8 +580,107 @@ const stikers = {
 				 'divid': 'ncku_z',
 				 'icon': 'https://i.imgur.com/u7INrF0.png',
 				 'cla': 'imgpop stiker_in stiker_out',
+				 'w': '30%',
+				 'h': '30%',
+				 }
+		   },
+			 {
+			   'type': 'Feature',
+				 'properties': {
+				 'memo': '打擊',
+				 'divid': 'ncu',
+				 'icon': 'https://i.imgur.com/06zHZ9s.png',
+				 'cla': 'imgpop stiker_in stiker_out',
+				 'w': '30%',
+				 'h': '30%',
+				 }
+		   },
+			 {
+			   'type': 'Feature',
+				 'properties': {
+				 'memo': '中大蕾蕾',
+				 'divid': 'ncu',
+				 'icon': 'https://i.imgur.com/xmQ6ISK.png',
+				 'cla': 'imgpop stiker_in stiker_out',
+				 'w': '30%',
+				 'h': '30%',
+				 }
+		   },
+			 {
+			   'type': 'Feature',
+				 'properties': {
+				 'memo': '字幕',
+				 'divid': 'twoset',
+				 'icon': 'https://i.imgur.com/gghOxEj.png',
+				 'cla': 'imgpop stiker_in stiker_out',
+				 'w': '30%',
+				 'h': '30%',
+				 }
+		   },
+			 {
+			   'type': 'Feature',
+				 'properties': {
+				 'memo': '中大猴',
+				 'divid': 'ncu',
+				 'icon': 'https://i.imgur.com/mhVnEuY.png',
+				 'cla': 'imgpop stiker_in stiker_out',
+				 'w': '30%',
+				 'h': '30%',
+				 }
+		   },
+			 {
+			   'type': 'Feature',
+				 'properties': {
+				 'memo': '十鼓鞦韆',
+				 'divid': 'ten',
+				 'icon': 'https://i.imgur.com/ymYRDV8.png',
+				 'cla': 'imgpop stiker_in stiker_out',
+				 'w': '30%',
+				 'h': '30%',
+				 }
+		   },
+			 {
+			   'type': 'Feature',
+				 'properties': {
+				 'memo': '馬場餵',
+				 'divid': 'hourse',
+				 'icon': 'https://i.imgur.com/m9Jwawp.png',
+				 'cla': 'imgpop stiker_in stiker_out',
+				 'w': '25%',
+				 'h': '25%',
+				 }
+		   },
+			 {
+			   'type': 'Feature',
+				 'properties': {
+				 'memo': '渡輪',
+				 'divid': 'chi_island',
+				 'icon': 'https://i.imgur.com/UkmLbiS.png',
+				 'cla': 'imgpop stiker_in stiker_out',
 				 'w': '20%',
 				 'h': '20%',
+				 }
+		   },
+			 {
+			   'type': 'Feature',
+				 'properties': {
+				 'memo': '獅子王',
+				 'divid': 'wwy',
+				 'icon': 'https://i.imgur.com/AtMfBKX.png',
+				 'cla': 'imgpop stiker_in stiker_out',
+				 'w': '20%',
+				 'h': '20%',
+				 }
+		   },
+			 {
+			   'type': 'Feature',
+				 'properties': {
+				 'memo': '十鼓偷窺',
+				 'divid': 'ten',
+				 'icon': 'https://i.imgur.com/79IXzbO.png',
+				 'cla': 'imgpop stiker_in stiker_out',
+				 'w': '30%',
+				 'h': '30%',
 				 }
 		   },
 			 

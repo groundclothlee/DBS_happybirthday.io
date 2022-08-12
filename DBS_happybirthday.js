@@ -181,7 +181,6 @@ function openDE() {
     });
 
 	
-	
 	var DE_opa = window.getComputedStyle(DEdiv).getPropertyValue("opacity");
 	
 	if (DE_opa==0){
@@ -202,9 +201,6 @@ function openDE() {
 
 
 
-
-
-
 //map	
 //https://docs.mapbox.com/mapbox-gl-js/api/map/
     const map = new mapboxgl.Map({
@@ -213,8 +209,13 @@ function openDE() {
         center: [120.21617556768315,23.000327371358434],
         zoom: 13.8,
 		doubleClickZoom:false,
-		boxZoom:true,		
+		boxZoom:true,	
+		
     });
+
+
+
+
 
 
 var stickerdiv = document.getElementById("sticker");

@@ -4,6 +4,19 @@ const geojson = {
 			 {
 			   'type': 'Feature',
 				 'properties': {
+				 'memo': '十鼓',
+				 'divid': 'ten',
+				 'icon': 'https://i.imgur.com/NOIZgLL.png',
+				 'type': 'Point',
+				 },
+				'geometry': {
+					  'type': 'Point',
+					 'coordinates': [120.23022965382717,22.939453967153714]
+				 }
+		   },
+			 {
+			   'type': 'Feature',
+				 'properties': {
 				 'memo': '聯盈發燒賣',
 				 'divid': 'steam_dum',
 				 'icon': 'https://i.imgur.com/mvyMRnt.png',
@@ -12,19 +25,6 @@ const geojson = {
 				'geometry': {
 					  'type': 'Point',
 					 'coordinates': [120.2518287,23.02910463]
-				 }
-		   },
-			 {
-			   'type': 'Feature',
-				 'properties': {
-				 'memo': '誠實鍋燒',
-				 'divid': 'honest_noo',
-				 'icon': 'https://i.imgur.com/YGF4rBS.png',
-				 'type': 'Point',
-				 },
-				'geometry': {
-					  'type': 'Point',
-					 'coordinates': [120.198153,22.98945989]
 				 }
 		   },
 			 {
@@ -136,7 +136,7 @@ const geojson = {
 				 'properties': {
 				 'memo': '衛武營',
 				 'divid': 'wwy',
-				 'icon': 'https://i.imgur.com/ZihgWdw.png',
+				 'icon': 'https://i.imgur.com/ZWnoKG6.png',
 				 'type': 'Point',
 				 },
 				'geometry': {
@@ -155,6 +155,45 @@ const geojson = {
 				'geometry': {
 					  'type': 'Point',
 					 'coordinates': [120.2680651,22.61230442]
+				 }
+		   },
+			 {
+			   'type': 'Feature',
+				 'properties': {
+				 'memo': '中大',
+				 'divid': 'ncu',
+				 'icon': 'https://i.imgur.com/fgf4rgP.png',
+				 'type': 'Point',
+				 },
+				'geometry': {
+					  'type': 'Point',
+					 'coordinates': [121.19522369618585,24.968282223758074]
+				 }
+		   },
+			 {
+			   'type': 'Feature',
+				 'properties': {
+				 'memo': '台南馬術',
+				 'divid': 'hourse',
+				 'icon': 'https://i.imgur.com/mgvTMWt.png',
+				 'type': 'Point',
+				 },
+				'geometry': {
+					  'type': 'Point',
+					 'coordinates': [120.32949214033513,23.00447168242108]
+				 }
+		   },
+			 {
+			   'type': 'Feature',
+				 'properties': {
+				 'memo': '誠實鍋燒',
+				 'divid': 'honest_noo',
+				 'icon': 'https://i.imgur.com/YGF4rBS.png',
+				 'type': 'Point',
+				 },
+				'geometry': {
+					  'type': 'Point',
+					 'coordinates': [120.198153,22.98945989]
 				 }
 		   },
 			 
