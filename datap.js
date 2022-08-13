@@ -136,7 +136,7 @@ const geojson = {
 				 'properties': {
 				 'memo': '衛武營',
 				 'divid': 'wwy',
-				 'icon': 'https://i.imgur.com/ZWnoKG6.png',
+				 'icon': 'https://i.imgur.com/FhpTSyb.png',
 				 'type': 'Point',
 				 },
 				'geometry': {

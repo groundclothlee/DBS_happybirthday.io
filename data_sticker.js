@@ -683,6 +683,39 @@ const stikers = {
 				 'h': '30%',
 				 }
 		   },
+			 {
+			   'type': 'Feature',
+				 'properties': {
+				 'memo': '6個100',
+				 'divid': 'cac_shp',
+				 'icon': 'https://i.imgur.com/EttBIRl.png',
+				 'cla': 'imgpop stiker_in stiker_out',
+				 'w': '20%',
+				 'h': '20%',
+				 }
+		   },
+			 {
+			   'type': 'Feature',
+				 'properties': {
+				 'memo': '字幕好難',
+				 'divid': 'twoset',
+				 'icon': 'https://i.imgur.com/Bhnhd1o.png',
+				 'cla': 'imgpop stiker_in stiker_out',
+				 'w': '20%',
+				 'h': '20%',
+				 }
+		   },
+			 {
+			   'type': 'Feature',
+				 'properties': {
+				 'memo': '我愛他們',
+				 'divid': 'twoset',
+				 'icon': 'https://i.imgur.com/agitSNr.png',
+				 'cla': 'imgpop stiker_in stiker_out',
+				 'w': '20%',
+				 'h': '20%',
+				 }
+		   },
 			 
 		  ]
 	};
