@@ -1,16 +1,22 @@
+/* --20220820 --*/
+/* --DeeYeeLee to RonnieYeh--*/
+/* --Happy Birthday!--*/
+
+/* ------------------------------------*/ 
+
 html{ overflow: hidden;}
 
 body { margin: 0;  overflow: hidden;width: 100%; height: 100%}
 
-
-
 #map { position: absolute; top: 0; bottom: 0; width: 100%; height: 100%; z-index:-10; overflow: hidden;}
 
 
+
+/* imgpop-------------------------------*/ 
 .imgpop {
 	position: absolute;
 	top: 500px;
-    left: 500px;
+	left: 500px;
 	opacity: 0;	
 	z-index:-100;
 	
@@ -51,7 +57,7 @@ body { margin: 0;  overflow: hidden;width: 100%; height: 100%}
 
 @keyframes stiker_out {
 	100% {
-		transform: scale(2)  rotate(10deg);
+		transform: scale(2)	 rotate(10deg);
 		opacity: 0;
 		z-index:-100;
 
@@ -83,11 +89,9 @@ body { margin: 0;  overflow: hidden;width: 100%; height: 100%}
 	}
 }
 
+/* LOADING-------------------------------*/ 
 
-
-
-.ring
-{
+.ring{
   position:absolute;
   top:50%;
   left:50%;
@@ -105,8 +109,7 @@ body { margin: 0;  overflow: hidden;width: 100%; height: 100%}
   text-transform:uppercase;
 
 }
-.ring:before
-{
+.ring:before{
   content:'';
   position:absolute;
   top:-3px;
@@ -120,22 +123,20 @@ body { margin: 0;  overflow: hidden;width: 100%; height: 100%}
   animation:animateC 2s linear infinite;
 }
 
-@keyframes animateC
-{
+@keyframes animateC {
   0%
   {
-    transform:rotate(0deg);
+	transform:rotate(0deg);
   }
   100%
   {
-    transform:rotate(720deg);
+	transform:rotate(720deg);
   }
 }
 
+/* reoveall-------------------------------*/ 
 
-
-
-#myBtn {
+#removeall {
   position: absolute; 
   right: 2rem;
   bottom: 2rem;
@@ -155,10 +156,11 @@ body { margin: 0;  overflow: hidden;width: 100%; height: 100%}
 }
 
 
-#myBtn:hover {
+#removeall:hover {
   background: rgba(255, 255, 255, 0.5);
 }
 
+/* DE-------------------------------*/ 
 
 #openDE {
   position: absolute; 
@@ -176,32 +178,32 @@ body { margin: 0;  overflow: hidden;width: 100%; height: 100%}
 
 
 p {
-	font-size:80%;  
-  margin: 0px 40px 10px 27px;
-  font-family: Tahoma, Verdana, sans-serif;
-  letter-spacing: 2px;
-  line-height: 1.5;
+	font-size:80%;	
+	margin: 0px 40px 10px 27px;
+	font-family: Tahoma, Verdana, sans-serif;
+	letter-spacing: 2px;
+	line-height: 1.5;
 }
 
 h1 {
-	font-size:100%;  
+	font-size:100%;	 
 	margin: 27px 27px 20px 27px;
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	letter-spacing: 2px;
 }
 
 
 a {
-	font-size:10%;  
+	font-size:10%;	
 	margin: 27px 27px 27px 27px;
 	font-family: Tahoma, Verdana, sans-serif;
 	line-height: 2;
-    color:white;
+	color:white;
 }
 
 
 a:active {
-    color:white;
+	color:white;
 }
 
 a:visited{
@@ -211,74 +213,66 @@ a:visited{
 
 
 .DEpopup {
-  opacity: 0;
-  position: absolute; 
-  left: 4rem;
-  top: 2rem;
-  border: 0px;
-
-  color:white;
-  z-index:-100;
-  min-width:300px;  
-  
-
-  width:30%;
-  border-top-left-radius:27px;
-  border-top-right-radius:27px;
-  border-bottom-left-radius:27px;
-  border-bottom-right-radius:27px;
-    
-
-  
-  background:rgba(99, 99, 99, 0.8);
+	opacity: 0;
+	position: absolute; 
+	left: 4rem;
+	top: 2rem;
+	border: 0px;
+	color:white;
+	z-index:-100;
+	min-width:300px;
+	width:30%;
+	border-top-left-radius:27px;
+	border-top-right-radius:27px;
+	border-bottom-left-radius:27px;
+	border-bottom-right-radius:27px;  
+	background:rgba(99, 99, 99, 0.8);
 }
 
 .scale-up-tl {
 	opacity: 100;
 	z-index:98;
-	-webkit-animation: scale-up-tl 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 	animation: scale-up-tl 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
 @keyframes scale-up-tl {
-  0% {
-    -webkit-transform: scale(0.5);
-            transform: scale(0.5);
-    -webkit-transform-origin: 0% 0%;
-            transform-origin: 0% 0%;
-  }
-  100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-    -webkit-transform-origin: 0% 0%;
-            transform-origin: 0% 0%;
-  }
+	  0% {
+		transform: scale(0.5);
+		transform-origin: 0% 0%;
+	  }
+	  100% {
+
+		transform: scale(1);
+		transform-origin: 0% 0%;
+	  }
 }
 
 .scale-down-tl {	
-	        animation: scale-down-tl 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+			animation: scale-down-tl 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 @keyframes scale-down-tl {
-  0% {
-            transform: scale(1);
-            transform-origin: 0% 0%;
-  }
-  100% {
-            transform: scale(0);
-            transform-origin: 0% 0%;
-	opacity: 0;
-	z-index:-100;
-  }
+	  0% {
+		transform: scale(1);
+		transform-origin: 0% 0%;
+	  }
+	  100% {
+		transform: scale(0);
+		transform-origin: 0% 0%;
+		opacity: 0;
+		z-index:-100;
+	  }
 }
 
 
+
+/* marker-------------------------------*/ 
 .marker {
-    display: block;
-    border: none;
-    cursor: pointer;
-    padding: 5;
-    }
+	display: block;
+	border: none;
+	cursor: pointer;
+	padding: 5;
+}
 
 .marker:hover {
   opacity: 0.8;
