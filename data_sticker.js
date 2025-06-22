@@ -9,7 +9,7 @@ const stikers = {
 				 'icon': 'https://i.imgur.com/bRGjwsc.png',
 				 'cla': 'imgpop stiker_in stiker_out',
 				 'w': '15%',
-				 'h': ''auto'',
+				 'h': '15%',
 				 }
 		   },
 			 {
@@ -20,7 +20,7 @@ const stikers = {
 				 'icon': 'https://i.imgur.com/uQ3uj1s.png',
 				 'cla': 'imgpop stiker_in stiker_out',
 				 'w': '15%',
-				 'h': ''auto'',
+				 'h': '15%',
 				 }
 		   },
 			 {
@@ -31,7 +31,7 @@ const stikers = {
 				 'icon': 'https://i.imgur.com/LIPkaTh.png',
 				 'cla': 'imgpop stiker_in stiker_out',
 				 'w': '30%',
-				 'h': ''auto'',
+				 'h': '20%',
 				 }
 		   },
 			 {
@@ -42,7 +42,7 @@ const stikers = {
 				 'icon': 'https://i.imgur.com/82VZ7Ox.png',
 				 'cla': 'imgpop stiker_in stiker_out',
 				 'w': '30%',
-				 'h': ''auto'',
+				 'h': '30%',
 				 }
 		   },
 			 {
@@ -53,7 +53,7 @@ const stikers = {
 				 'icon': 'https://i.imgur.com/EpTANPN.png',
 				 'cla': 'imgpop stiker_in stiker_out',
 				 'w': '20%',
-				 'h': ''auto'',
+				 'h': '20%',
 				 }
 		   },
 			 {
@@ -64,7 +64,7 @@ const stikers = {
 				 'icon': 'https://i.imgur.com/e3fL04K.png',
 				 'cla': 'imgpop stiker_in stiker_out',
 				 'w': '15%',
-				 'h': ''auto'',
+				 'h': '15%',
 				 }
 		   },
 			 {
@@ -75,7 +75,7 @@ const stikers = {
 				 'icon': 'https://i.imgur.com/v3AR7x1.png',
 				 'cla': 'imgpop stiker_in stiker_out',
 				 'w': '20%',
-				 'h': ''auto'',
+				 'h': '20%',
 				 }
 		   },
 			 {
@@ -86,7 +86,7 @@ const stikers = {
 				 'icon': 'https://i.imgur.com/CO6Mwrq.png',
 				 'cla': 'imgpop stiker_in stiker_out',
 				 'w': '20%',
-				 'h': ''auto'',
+				 'h': '20%',
 				 }
 		   },
 			 {
@@ -97,7 +97,7 @@ const stikers = {
 				 'icon': 'https://i.imgur.com/M5O7bXF.png',
 				 'cla': 'imgpop stiker_in stiker_out',
 				 'w': '10%',
-				 'h': ''auto'',
+				 'h': '10%',
 				 }
 		   },
 			 {
@@ -108,7 +108,7 @@ const stikers = {
 				 'icon': 'https://i.imgur.com/nSJcYNS.png',
 				 'cla': 'imgpop stiker_in stiker_out',
 				 'w': '18%',
-				 'h': ''auto'',
+				 'h': '18%',
 				 }
 		   },
 			 {
@@ -119,7 +119,7 @@ const stikers = {
 				 'icon': 'https://i.imgur.com/9ePJaGO.png',
 				 'cla': 'imgpop stiker_in stiker_out',
 				 'w': '20%',
-				 'h': ''auto'',
+				 'h': '20%',
 				 }
 		   },
 			 {
@@ -130,7 +130,7 @@ const stikers = {
 				 'icon': 'https://i.imgur.com/8mx26fa.png',
 				 'cla': 'imgpop stiker_in stiker_out',
 				 'w': '20%',
-				 'h': ''auto'',
+				 'h': '20%',
 				 }
 		   },
 			 {
@@ -141,7 +141,7 @@ const stikers = {
 				 'icon': 'https://i.imgur.com/OXaIuPb.png',
 				 'cla': 'imgpop stiker_in stiker_out',
 				 'w': '20%',
-				 'h': ''auto'',
+				 'h': '20%',
 				 }
 		   },
 			 {
@@ -152,7 +152,7 @@ const stikers = {
 				 'icon': 'https://i.imgur.com/10y6DjZ.png',
 				 'cla': 'imgpop stiker_in stiker_out',
 				 'w': '20%',
-				 'h': ''auto'',
+				 'h': '20%',
 				 }
 		   },
 			 {
@@ -163,7 +163,7 @@ const stikers = {
 				 'icon': 'https://i.imgur.com/OhLfIQ0.png',
 				 'cla': 'imgpop stiker_in stiker_out',
 				 'w': '30%',
-				 'h': ''auto'',
+				 'h': '30%',
 				 }
 		   },
 			 {
@@ -174,7 +174,7 @@ const stikers = {
 				 'icon': 'https://i.imgur.com/VUQv521.png',
 				 'cla': 'imgpop stiker_in stiker_out',
 				 'w': '20%',
-				 'h': ''auto'',
+				 'h': '20%',
 				 }
 		   },
 			 {
@@ -185,7 +185,7 @@ const stikers = {
 				 'icon': 'https://i.imgur.com/szXb2QI.png',
 				 'cla': 'imgpop stiker_in stiker_out',
 				 'w': '20%',
-				 'h': ''auto'',
+				 'h': '20%',
 				 }
 		   },
 			 {
@@ -196,7 +196,7 @@ const stikers = {
 				 'icon': 'https://i.imgur.com/Zag6Pah.png',
 				 'cla': 'imgpop stiker_in stiker_out',
 				 'w': '15%',
-				 'h': ''auto'',
+				 'h': '15%',
 				 }
 		   },
 			 {
@@ -207,7 +207,7 @@ const stikers = {
 				 'icon': 'https://i.imgur.com/ozskM8S.png',
 				 'cla': 'imgpop stiker_in stiker_out',
 				 'w': '15%',
-				 'h': ''auto'',
+				 'h': '15%',
 				 }
 		   },
 			 {
@@ -218,7 +218,7 @@ const stikers = {
 				 'icon': 'https://i.imgur.com/yHWoITy.png',
 				 'cla': 'imgpop stiker_in stiker_out',
 				 'w': '15%',
-				 'h': ''auto'',
+				 'h': '15%',
 				 }
 		   },
 			 {
@@ -229,7 +229,7 @@ const stikers = {
 				 'icon': 'https://i.imgur.com/UoaxTyO.png',
 				 'cla': 'imgpop stiker_in stiker_out',
 				 'w': '15%',
-				 'h': ''auto'',
+				 'h': '15%',
 				 }
 		   },
 			 {
@@ -240,7 +240,7 @@ const stikers = {
 				 'icon': 'https://i.imgur.com/VYW7x6E.png',
 				 'cla': 'imgpop stiker_in stiker_out',
 				 'w': '20%',
-				 'h': ''auto'',
+				 'h': '20%',
 				 }
 		   },
 			 {
@@ -251,7 +251,7 @@ const stikers = {
 				 'icon': 'https://i.imgur.com/aUZ7bdW.png',
 				 'cla': 'imgpop stiker_in stiker_out',
 				 'w': '15%',
-				 'h': ''auto'',
+				 'h': '15%',
 				 }
 		   },
 			 {
@@ -262,7 +262,7 @@ const stikers = {
 				 'icon': 'https://i.imgur.com/gtHBz51.png',
 				 'cla': 'imgpop stiker_in stiker_out',
 				 'w': '30%',
-				 'h': ''auto'',
+				 'h': '30%',
 				 }
 		   },
 			 {
@@ -273,7 +273,7 @@ const stikers = {
 				 'icon': 'https://i.imgur.com/oZ8xW25.png',
 				 'cla': 'imgpop stiker_in stiker_out',
 				 'w': '15%',
-				 'h': ''auto'',
+				 'h': '15%',
 				 }
 		   },
 			 {
@@ -284,7 +284,7 @@ const stikers = {
 				 'icon': 'https://i.imgur.com/BaQZepX.png',
 				 'cla': 'imgpop stiker_in stiker_out',
 				 'w': '15%',
-				 'h': ''auto'',
+				 'h': '15%',
 				 }
 		   },
 			 {
@@ -295,7 +295,7 @@ const stikers = {
 				 'icon': 'https://i.imgur.com/7KQ08VO.png',
 				 'cla': 'imgpop stiker_in stiker_out',
 				 'w': '15%',
-				 'h': ''auto'',
+				 'h': '15%',
 				 }
 		   },
 			 {
@@ -306,7 +306,7 @@ const stikers = {
 				 'icon': 'https://i.imgur.com/b7YH9KD.png',
 				 'cla': 'imgpop stiker_in stiker_out',
 				 'w': '15%',
-				 'h': ''auto'',
+				 'h': '15%',
 				 }
 		   },
 			 {
@@ -317,7 +317,7 @@ const stikers = {
 				 'icon': 'https://i.imgur.com/UYWEVGk.png',
 				 'cla': 'imgpop stiker_in stiker_out',
 				 'w': '20%',
-				 'h': ''auto'',
+				 'h': '20%',
 				 }
 		   },
 			 {
@@ -328,7 +328,7 @@ const stikers = {
 				 'icon': 'https://i.imgur.com/ryumwqk.png',
 				 'cla': 'imgpop stiker_in stiker_out',
 				 'w': '20%',
-				 'h': ''auto'',
+				 'h': '20%',
 				 }
 		   },
 			 {
@@ -339,7 +339,7 @@ const stikers = {
 				 'icon': 'https://i.imgur.com/2HAxJaq.png',
 				 'cla': 'imgpop stiker_in stiker_out',
 				 'w': '50%',
-				 'h': ''auto'',
+				 'h': '30%',
 				 }
 		   },
 			 {
@@ -350,7 +350,7 @@ const stikers = {
 				 'icon': 'https://i.imgur.com/QXSNuAI.png',
 				 'cla': 'imgpop stiker_in stiker_out',
 				 'w': '50%',
-				 'h': ''auto'',
+				 'h': '30%',
 				 }
 		   },
 			 {
@@ -361,7 +361,7 @@ const stikers = {
 				 'icon': 'https://images.plurk.com/3QSo6GkCmrfMLQm0do2pBc.png',
 				 'cla': 'imgpop stiker_in stiker_out',
 				 'w': '40%',
-				 'h': ''auto'',
+				 'h': '40%',
 				 }
 		   },
 			 {
@@ -372,7 +372,7 @@ const stikers = {
 				 'icon': 'https://images.plurk.com/1H8j1mPWuAkfACygLIWTQb.png',
 				 'cla': 'imgpop stiker_in stiker_out',
 				 'w': '15%',
-				 'h': ''auto'',
+				 'h': '15%',
 				 }
 		   },
 			 {
@@ -382,8 +382,8 @@ const stikers = {
 				 'divid': 'fried_c',
 				 'icon': 'https://images.plurk.com/15FOsX3bRgOi64CKM1cqoA.png',
 				 'cla': 'imgpop stiker_in stiker_out',
-				 'w': '50%',
-				 'h': ''auto'',
+				 'w': '30%',
+				 'h': '50%',
 				 }
 		   },
 			 {
@@ -394,7 +394,7 @@ const stikers = {
 				 'icon': 'https://i.imgur.com/n7bGPT0.png',
 				 'cla': 'imgpop stiker_in stiker_out',
 				 'w': '20%',
-				 'h': ''auto'',
+				 'h': '20%',
 				 }
 		   },
 			 {
@@ -405,7 +405,7 @@ const stikers = {
 				 'icon': 'https://i.imgur.com/fJS4tRQ.png',
 				 'cla': 'imgpop stiker_in stiker_out',
 				 'w': '50%',
-				 'h': ''auto'',
+				 'h': '30%',
 				 }
 		   },
 			 {
@@ -416,7 +416,7 @@ const stikers = {
 				 'icon': 'https://i.imgur.com/RH3x8AB.png',
 				 'cla': 'imgpop stiker_in stiker_out',
 				 'w': '12%',
-				 'h': ''auto'',
+				 'h': '12%',
 				 }
 		   },
 			 {
@@ -427,7 +427,7 @@ const stikers = {
 				 'icon': 'https://i.imgur.com/27QvL7W.png',
 				 'cla': 'imgpop stiker_in stiker_out',
 				 'w': '15%',
-				 'h': ''auto'',
+				 'h': '15%',
 				 }
 		   },
 			 {
@@ -438,7 +438,7 @@ const stikers = {
 				 'icon': 'https://i.imgur.com/bBUftiE.png',
 				 'cla': 'imgpop stiker_in stiker_out',
 				 'w': '12%',
-				 'h': ''auto'',
+				 'h': '12%',
 				 }
 		   },
 			 {
@@ -449,7 +449,7 @@ const stikers = {
 				 'icon': 'https://i.imgur.com/PyekPfd.png',
 				 'cla': 'imgpop stiker_in stiker_out',
 				 'w': '15%',
-				 'h': ''auto'',
+				 'h': '15%',
 				 }
 		   },
 			 {
@@ -460,7 +460,7 @@ const stikers = {
 				 'icon': 'https://i.imgur.com/Q757j4v.png',
 				 'cla': 'imgpop stiker_in stiker_out',
 				 'w': '15%',
-				 'h': ''auto'',
+				 'h': '15%',
 				 }
 		   },
 			 {
@@ -471,7 +471,7 @@ const stikers = {
 				 'icon': 'https://i.imgur.com/0n0R7Gu.png',
 				 'cla': 'imgpop stiker_in stiker_out',
 				 'w': '10%',
-				 'h': ''auto'',
+				 'h': '10%',
 				 }
 		   },
 			 {
@@ -482,7 +482,7 @@ const stikers = {
 				 'icon': 'https://i.imgur.com/QSPlSu4.png',
 				 'cla': 'imgpop stiker_in stiker_out',
 				 'w': '18%',
-				 'h': ''auto'',
+				 'h': '18%',
 				 }
 		   },
 			 {
@@ -493,7 +493,7 @@ const stikers = {
 				 'icon': 'https://i.imgur.com/qtP85Zh.png',
 				 'cla': 'imgpop stiker_in stiker_out',
 				 'w': '18%',
-				 'h': ''auto'',
+				 'h': '18%',
 				 }
 		   },
 			 {
@@ -504,7 +504,7 @@ const stikers = {
 				 'icon': 'https://i.imgur.com/33ck9U7.png',
 				 'cla': 'imgpop stiker_in stiker_out',
 				 'w': '50%',
-				 'h': ''auto'',
+				 'h': '30%',
 				 }
 		   },
 			 {
@@ -515,7 +515,7 @@ const stikers = {
 				 'icon': 'https://i.imgur.com/p8QQEt4.png',
 				 'cla': 'imgpop stiker_in stiker_out',
 				 'w': '15%',
-				 'h': ''auto'',
+				 'h': '15%',
 				 }
 		   },
 			 {
@@ -526,7 +526,7 @@ const stikers = {
 				 'icon': 'https://images.plurk.com/57bQRE5wtjZ3WGUBjbrHzz.png',
 				 'cla': 'imgpop stiker_in stiker_out',
 				 'w': '50%',
-				 'h': ''auto'',
+				 'h': '30%',
 				 }
 		   },
 			 {
@@ -537,7 +537,7 @@ const stikers = {
 				 'icon': 'https://i.imgur.com/0VVonvp.png',
 				 'cla': 'imgpop stiker_in stiker_out',
 				 'w': '15%',
-				 'h': ''auto'',
+				 'h': '15%',
 				 }
 		   },
 			 {
@@ -548,7 +548,7 @@ const stikers = {
 				 'icon': 'https://i.imgur.com/Tf0OVgc.png',
 				 'cla': 'imgpop stiker_in stiker_out',
 				 'w': '30%',
-				 'h': ''auto'',
+				 'h': '30%',
 				 }
 		   },
 			 {
@@ -559,7 +559,7 @@ const stikers = {
 				 'icon': 'https://i.imgur.com/bCoguPR.png',
 				 'cla': 'imgpop stiker_in stiker_out',
 				 'w': '30%',
-				 'h': ''auto'',
+				 'h': '30%',
 				 }
 		   },
 			 {
@@ -570,7 +570,7 @@ const stikers = {
 				 'icon': 'https://i.imgur.com/u7INrF0.png',
 				 'cla': 'imgpop stiker_in stiker_out',
 				 'w': '30%',
-				 'h': ''auto'',
+				 'h': '30%',
 				 }
 		   },
 			 {
@@ -581,7 +581,7 @@ const stikers = {
 				 'icon': 'https://i.imgur.com/06zHZ9s.png',
 				 'cla': 'imgpop stiker_in stiker_out',
 				 'w': '30%',
-				 'h': ''auto'',
+				 'h': '30%',
 				 }
 		   },
 			 {
@@ -592,7 +592,7 @@ const stikers = {
 				 'icon': 'https://i.imgur.com/xmQ6ISK.png',
 				 'cla': 'imgpop stiker_in stiker_out',
 				 'w': '30%',
-				 'h': ''auto'',
+				 'h': '30%',
 				 }
 		   },
 			 {
@@ -603,7 +603,7 @@ const stikers = {
 				 'icon': 'https://i.imgur.com/mhVnEuY.png',
 				 'cla': 'imgpop stiker_in stiker_out',
 				 'w': '30%',
-				 'h': ''auto'',
+				 'h': '30%',
 				 }
 		   },
 			 {
@@ -614,7 +614,7 @@ const stikers = {
 				 'icon': 'https://i.imgur.com/ymYRDV8.png',
 				 'cla': 'imgpop stiker_in stiker_out',
 				 'w': '30%',
-				 'h': ''auto'',
+				 'h': '30%',
 				 }
 		   },
 			 {
@@ -625,7 +625,7 @@ const stikers = {
 				 'icon': 'https://i.imgur.com/m9Jwawp.png',
 				 'cla': 'imgpop stiker_in stiker_out',
 				 'w': '25%',
-				 'h': ''auto'',
+				 'h': '25%',
 				 }
 		   },
 			 {
@@ -636,7 +636,7 @@ const stikers = {
 				 'icon': 'https://i.imgur.com/UkmLbiS.png',
 				 'cla': 'imgpop stiker_in stiker_out',
 				 'w': '20%',
-				 'h': ''auto'',
+				 'h': '20%',
 				 }
 		   },
 			 {
@@ -647,7 +647,7 @@ const stikers = {
 				 'icon': 'https://i.imgur.com/AtMfBKX.png',
 				 'cla': 'imgpop stiker_in stiker_out',
 				 'w': '20%',
-				 'h': ''auto'',
+				 'h': '20%',
 				 }
 		   },
 			 {
@@ -658,7 +658,7 @@ const stikers = {
 				 'icon': 'https://i.imgur.com/79IXzbO.png',
 				 'cla': 'imgpop stiker_in stiker_out',
 				 'w': '30%',
-				 'h': ''auto'',
+				 'h': '30%',
 				 }
 		   },
 			 {
@@ -669,7 +669,7 @@ const stikers = {
 				 'icon': 'https://i.imgur.com/EttBIRl.png',
 				 'cla': 'imgpop stiker_in stiker_out',
 				 'w': '20%',
-				 'h': ''auto'',
+				 'h': '20%',
 				 }
 		   },
 			 {
@@ -679,8 +679,8 @@ const stikers = {
 				 'divid': 'cac_shp',
 				 'icon': 'https://images.plurk.com/6OUKacogpny07W6BmxKNDH.png',
 				 'cla': 'imgpop stiker_in stiker_out',
-				 'w': '50%',
-				 'h': ''auto'',
+				 'w': '20%',
+				 'h': '20%',
 				 }
 		   },
 			 {
@@ -690,8 +690,8 @@ const stikers = {
 				 'divid': 'mango',
 				 'icon': 'https://images.plurk.com/4Sr342U0QzZEodr1FzVMbe.png',
 				 'cla': 'imgpop stiker_in stiker_out',
-				 'w': '50%',
-				 'h': ''auto'',
+				 'w': '30%',
+				 'h': '50%',
 				 }
 		   },
 			 {
@@ -702,7 +702,7 @@ const stikers = {
 				 'icon': 'https://images.plurk.com/7Jm4M6JidENOFZizu2nwCX.png',
 				 'cla': 'imgpop stiker_in stiker_out',
 				 'w': '40%',
-				 'h': ''auto'',
+				 'h': '40%',
 				 }
 		   },
 			 {
@@ -713,7 +713,7 @@ const stikers = {
 				 'icon': 'https://images.plurk.com/3Ve4YxxpKtNNvPqa580F14.png',
 				 'cla': 'imgpop stiker_in stiker_out',
 				 'w': '50%',
-				 'h': ''auto'',
+				 'h': '30%',
 				 }
 		   },
 			 
