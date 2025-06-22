@@ -11,7 +11,7 @@ const geojson = {
 				 },
 				'geometry': {
 					  'type': 'Point',
-					 'coordinates': [120.23022965382717,22.939453967153714]
+					 'coordinates': [120.2302297,22.93945397]
 				 }
 		   },
 			 {
@@ -98,7 +98,7 @@ const geojson = {
 				 'memo': '巷口小籠包',
 				 'divid': 'lane_bao',
 				 'icon': 'https://i.imgur.com/grahKcy.png',
-				 'type': '120.2263055',
+				 'type': 'Point',
 				 },
 				'geometry': {
 					  'type': 'Point',
@@ -121,14 +121,14 @@ const geojson = {
 			 {
 			   'type': 'Feature',
 				 'properties': {
-				 'memo': '布里斯本',
-				 'divid': 'twoset',
-				 'icon': 'https://i.imgur.com/ZihgWdw.png',
+				 'memo': '三鍋臭媽媽',
+				 'divid': 'stinky',
+				 'icon': 'https://images.plurk.com/7mpJAyIO2RSTql37Qi0agA.png',
 				 'type': 'Point',
 				 },
 				'geometry': {
 					  'type': 'Point',
-					 'coordinates': [153.0203403,-27.4763885]
+					 'coordinates': [120.226755,23.00008737]
 				 }
 		   },
 			 {
@@ -167,7 +167,7 @@ const geojson = {
 				 },
 				'geometry': {
 					  'type': 'Point',
-					 'coordinates': [121.19522369618585,24.968282223758074]
+					 'coordinates': [121.1952237,24.96828222]
 				 }
 		   },
 			 {
@@ -180,7 +180,7 @@ const geojson = {
 				 },
 				'geometry': {
 					  'type': 'Point',
-					 'coordinates': [120.32949214033513,23.00447168242108]
+					 'coordinates': [120.3294921,23.00447168]
 				 }
 		   },
 			 {
@@ -194,6 +194,71 @@ const geojson = {
 				'geometry': {
 					  'type': 'Point',
 					 'coordinates': [120.198153,22.98945989]
+				 }
+		   },
+			 {
+			   'type': 'Feature',
+				 'properties': {
+				 'memo': '覺丸拉麵',
+				 'divid': 'receipt',
+				 'icon': 'https://images.plurk.com/3IpX55J0AM5VIV5ls9985F.png',
+				 'type': 'Point',
+				 },
+				'geometry': {
+					  'type': 'Point',
+					 'coordinates': [120.229783,22.99599522]
+				 }
+		   },
+			 {
+			   'type': 'Feature',
+				 'properties': {
+				 'memo': '小茂屋',
+				 'divid': 'little_noo',
+				 'icon': 'https://images.plurk.com/7cz162UroYvf2VI7BfODvT.png',
+				 'type': 'Point',
+				 },
+				'geometry': {
+					  'type': 'Point',
+					 'coordinates': [120.2218378,22.99314923]
+				 }
+		   },
+			 {
+			   'type': 'Feature',
+				 'properties': {
+				 'memo': '蕎麥炸雞',
+				 'divid': 'fried_c',
+				 'icon': 'https://images.plurk.com/3tasBHYfOk0BCRFlRyqb7q.png',
+				 'type': 'Point',
+				 },
+				'geometry': {
+					  'type': 'Point',
+					 'coordinates': [120.2414628,22.98933535]
+				 }
+		   },
+			 {
+			   'type': 'Feature',
+				 'properties': {
+				 'memo': '玉井芒果',
+				 'divid': 'mango',
+				 'icon': 'https://images.plurk.com/5RpJVcPhMGjNrv6H3Hy3xZ.png',
+				 'type': 'Point',
+				 },
+				'geometry': {
+					  'type': 'Point',
+					 'coordinates': [120.4632018,23.1219966]
+				 }
+		   },
+			 {
+			   'type': 'Feature',
+				 'properties': {
+				 'memo': '順益壽司',
+				 'divid': 'sushi',
+				 'icon': 'https://images.plurk.com/23RudnanPzyTqHkYYCmrEl.png',
+				 'type': 'Point',
+				 },
+				'geometry': {
+					  'type': 'Point',
+					 'coordinates': [120.2451517,22.9778772]
 				 }
 		   },
 			 

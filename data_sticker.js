@@ -356,33 +356,33 @@ const stikers = {
 			 {
 			   'type': 'Feature',
 				 'properties': {
-				 'memo': 'EDDY',
-				 'divid': 'twoset',
-				 'icon': 'https://i.imgur.com/auIQTkc.png',
+				 'memo': '小茂屋',
+				 'divid': 'little_noo',
+				 'icon': 'https://images.plurk.com/3QSo6GkCmrfMLQm0do2pBc.png',
 				 'cla': 'imgpop stiker_in stiker_out',
-				 'w': '20%',
-				 'h': '20%',
+				 'w': '50%',
+				 'h': '30%',
 				 }
 		   },
 			 {
 			   'type': 'Feature',
 				 'properties': {
-				 'memo': 'brett',
-				 'divid': 'twoset',
-				 'icon': 'https://i.imgur.com/RDCtKEw.png',
+				 'memo': '覺丸拉麵',
+				 'divid': 'receipt',
+				 'icon': 'https://images.plurk.com/1H8j1mPWuAkfACygLIWTQb.png',
 				 'cla': 'imgpop stiker_in stiker_out',
-				 'w': '20%',
-				 'h': '20%',
+				 'w': '15%',
+				 'h': '15%',
 				 }
 		   },
 			 {
 			   'type': 'Feature',
 				 'properties': {
-				 'memo': 'twoEB',
-				 'divid': 'twoset',
-				 'icon': 'https://i.imgur.com/Nup46TQ.png',
+				 'memo': '炸雞',
+				 'divid': 'fried_c',
+				 'icon': 'https://images.plurk.com/15FOsX3bRgOi64CKM1cqoA.png',
 				 'cla': 'imgpop stiker_in stiker_out',
-				 'w': '30%',
+				 'w': '50%',
 				 'h': '30%',
 				 }
 		   },
@@ -521,12 +521,12 @@ const stikers = {
 			 {
 			   'type': 'Feature',
 				 'properties': {
-				 'memo': '狗不能進',
-				 'divid': 'lane_bao',
-				 'icon': 'https://i.imgur.com/BvSh0PN.png',
+				 'memo': '壽司',
+				 'divid': 'sushi',
+				 'icon': 'https://images.plurk.com/57bQRE5wtjZ3WGUBjbrHzz.png',
 				 'cla': 'imgpop stiker_in stiker_out',
-				 'w': '18%',
-				 'h': '18%',
+				 'w': '30%',
+				 'h': '30%',
 				 }
 		   },
 			 {
@@ -549,17 +549,6 @@ const stikers = {
 				 'cla': 'imgpop stiker_in stiker_out',
 				 'w': '30%',
 				 'h': '30%',
-				 }
-		   },
-			 {
-			   'type': 'Feature',
-				 'properties': {
-				 'memo': 'twosetstrad',
-				 'divid': 'twoset',
-				 'icon': 'https://i.imgur.com/mFrD0tm.png',
-				 'cla': 'imgpop stiker_in stiker_out',
-				 'w': '20%',
-				 'h': '20%',
 				 }
 		   },
 			 {
@@ -601,17 +590,6 @@ const stikers = {
 				 'memo': '中大蕾蕾',
 				 'divid': 'ncu',
 				 'icon': 'https://i.imgur.com/xmQ6ISK.png',
-				 'cla': 'imgpop stiker_in stiker_out',
-				 'w': '30%',
-				 'h': '30%',
-				 }
-		   },
-			 {
-			   'type': 'Feature',
-				 'properties': {
-				 'memo': '字幕',
-				 'divid': 'twoset',
-				 'icon': 'https://i.imgur.com/gghOxEj.png',
 				 'cla': 'imgpop stiker_in stiker_out',
 				 'w': '30%',
 				 'h': '30%',
@@ -697,23 +675,45 @@ const stikers = {
 			 {
 			   'type': 'Feature',
 				 'properties': {
-				 'memo': '字幕好難',
-				 'divid': 'twoset',
-				 'icon': 'https://i.imgur.com/Bhnhd1o.png',
+				 'memo': '花市',
+				 'divid': 'cac_shp',
+				 'icon': 'https://images.plurk.com/6OUKacogpny07W6BmxKNDH.png',
 				 'cla': 'imgpop stiker_in stiker_out',
-				 'w': '20%',
-				 'h': '20%',
+				 'w': '50%',
+				 'h': '30%',
 				 }
 		   },
 			 {
 			   'type': 'Feature',
 				 'properties': {
-				 'memo': '我愛他們',
-				 'divid': 'twoset',
-				 'icon': 'https://i.imgur.com/agitSNr.png',
+				 'memo': '芒果火鍋',
+				 'divid': 'mango',
+				 'icon': 'https://images.plurk.com/4Sr342U0QzZEodr1FzVMbe.png',
 				 'cla': 'imgpop stiker_in stiker_out',
-				 'w': '20%',
-				 'h': '20%',
+				 'w': '50%',
+				 'h': '30%',
+				 }
+		   },
+			 {
+			   'type': 'Feature',
+				 'properties': {
+				 'memo': '衛武營腳踏車',
+				 'divid': 'wwy',
+				 'icon': 'https://images.plurk.com/7Jm4M6JidENOFZizu2nwCX.png',
+				 'cla': 'imgpop stiker_in stiker_out',
+				 'w': '50%',
+				 'h': '30%',
+				 }
+		   },
+			 {
+			   'type': 'Feature',
+				 'properties': {
+				 'memo': '三鍋',
+				 'divid': 'stinky',
+				 'icon': 'https://images.plurk.com/3Ve4YxxpKtNNvPqa580F14.png',
+				 'cla': 'imgpop stiker_in stiker_out',
+				 'w': '50%',
+				 'h': '30%',
 				 }
 		   },
 			 
