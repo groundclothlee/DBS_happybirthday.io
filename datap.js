@@ -201,7 +201,7 @@ const geojson = {
 				 'properties': {
 				 'memo': '覺丸拉麵',
 				 'divid': 'receipt',
-				 'icon': 'https://images.plurk.com/3IpX55J0AM5VIV5ls9985F.png',
+				 'icon': 'https://images.plurk.com/3GX9eiqdMr440WYm9ETiub.png',
 				 'type': 'Point',
 				 },
 				'geometry': {
